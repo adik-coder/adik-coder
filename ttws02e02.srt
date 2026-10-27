@@ -1,4 +1,4 @@
-﻿1
+1
 00:00:02,645 --> 00:00:03,844
 Spațiu.
 
@@ -63,11 +63,11 @@ Spațiu, timp, viața însăși.
 15
 00:01:03,200 --> 00:01:08,037
 Secretele cosmosului
-trec prin gaură de vierme.
+trec prin gaura de vierme.
 
 16
 00:01:08,038 --> 00:01:12,038
-<font color=#00ff00>  Prin gaură de vierme 2x02  </ font>
+<font color=#00ff00>  Prin gaura de vierme 2x02  </ font>
 <font color=#00ffff> Există o margine a Universului? </ font>
 Difuzarea originală pe 15 iunie 2011
 
