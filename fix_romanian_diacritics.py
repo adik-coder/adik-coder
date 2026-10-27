@@ -282,7 +282,7 @@ WORD_MAP: dict[str, str] = {
     "fiinta": "ființă",
     "fiinte": "ființe",
     "finita": "finită",
-    "fizica": "fizică",
+    # "fizica"/"natura" are usually definite forms — do NOT map to fizică/natură
         "forta": "forță",
     "frumoasa": "frumoasă",
     "gand": "gând",
@@ -351,7 +351,7 @@ WORD_MAP: dict[str, str] = {
     "munca": "muncă",
     "munti": "munți",
     "muzica": "muzică",
-    "natura": "natură",
+    # "natura" kept as definite; use phrases for indefinite "natură"
     "nastere": "naștere",
     "nelegiuiti": "nelegiuiți",
     "nemiscati": "nemișcați",
@@ -842,100 +842,120 @@ def _fix_sa(token: str, before: str, after: str) -> str | None:
 def _fix_ca(token: str, before: str, after: str) -> str | None:
     """Disambiguate ca (like/as) vs că (that/because)."""
     rest = after.lstrip()
-    prev = before.rstrip().split()[-1].casefold() if before.rstrip().split() else ""
-    if prev in {"face", "fac", "făcea", "făceau", "făcut", "facă", "faca", "aproape", "fel", "cum"}:
-        return _apply_case(token, "ca")
-    # "mai înalt/mare/... ca"
-    prev2 = before.rstrip().split()[-2].casefold() if len(before.rstrip().split()) >= 2 else ""
-    if prev2 == "mai":
-        return _apply_case(token, "ca")
-    # "ca să" stays "ca"
+    prev_tokens = before.rstrip().split()
+    prev = prev_tokens[-1].casefold() if prev_tokens else ""
+    prev2 = prev_tokens[-2].casefold() if len(prev_tokens) >= 2 else ""
+
+    nxt_raw = rest.split()[0] if rest.split() else ""
+    nxt = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", nxt_raw, flags=re.UNICODE).casefold()
+
+    # Purpose / fixed phrases
     if rest.casefold().startswith("să ") or rest.casefold().startswith("sa "):
         return _apply_case(token, "ca")
-    # "ca și" stays "ca"
     if rest.casefold().startswith("și ") or rest.casefold().startswith("si "):
         return _apply_case(token, "ca")
-    # "ca fiind", "ca mine", "ca un/o/niște...", comparisons
-    keep_ca_next = {
-        "fiind",
-        "mine",
-        "tine",
-        "el",
-        "ea",
-        "noi",
-        "voi",
-        "ei",
-        "ele",
-        "un",
-        "o",
-        "niște",
-        "niste",
-        "acel",
-        "acea",
-        "acest",
-        "acești",
-        "acesti",
-        "aceste",
-        "cel",
-        "cea",
-        "cei",
-        "cele",
-        "orice",
-        "oricine",
-        "aici",
-        "acolo",
-        "în",
-        "in",
-        "din",
-        "la",
-        "de",
-        "pe",
-        "cu",
-        "prin",
-        "după",
-        "dupa",
-        "până",
-        "pana",
-        "și",
-        "si",
-        "tobe",
-        "tobele",
-        "toba",
-        "tobă",
-        "oamenii",
-        "apa",
-        "apă",
-        "mingea",
-        "minge",
-        "pian",
-        "covrig",
-        "cilindru",
-        "joc",
-        "jocul",
-        "asteroids",
-        "asteroizi",
-        "dodecaedru",
-        "fotbal",
-        "oglinda",
-        "oglindă",
-        "sala",
-        "sală",
-        "hotel",
-        "camera",
-        "cameră",
-        "membrii",
-        "membru",
-        "existența",
-        "existenta",
-        "existenţă",
-    }
-    nxt = rest.split()[0].casefold().strip(",.;:!?\"'") if rest.split() else ""
-    # strip trailing punctuation from nxt already done
-    nxt = re.sub(r"[^\wăâîșț-]+$", "", nxt, flags=re.UNICODE)
-    if nxt in keep_ca_next:
+    if prev2 == "mai" or prev in {"fel", "cum", "face", "fac", "făcea", "făcut", "aproape"}:
         return _apply_case(token, "ca")
-    # default in narration: că
+
+    # Possessive "al/ai/ale" and "ca ar fi"
+    if nxt in {"al", "ai", "ale"}:
+        return _apply_case(token, "ca")
+    if nxt == "ar" and re.match(r"(?i)ar\s+fi\b", rest):
+        return _apply_case(token, "ca")
+    # "ar fi ca numărul…" (comparison), not "ar fi că [clause]"
+    if prev == "fi" and prev2 == "ar" and nxt and nxt not in _CA_CLAUSE_STARTERS:
+        return _apply_case(token, "ca")
+
+    if nxt in _CA_KEEP_NEXT:
+        return _apply_case(token, "ca")
+
+    # "pare că …" is a clause (not comparison)
+    if prev in {"pare", "par", "părea", "parea"} and nxt in _CA_CLAUSE_STARTERS:
+        return _apply_case(token, "că")
+
+    # Comparison after copula / perception verbs + nominal
+    if prev in {
+        "sunt", "ești", "esti", "suntem", "sunteți", "sunteti",
+        "utilizează", "utilizeaza", "folosește", "foloseste", "folosim",
+        "detectăm", "detectam", "detectează", "detecteaza",
+        "perceput", "văzut", "vazut", "descris", "numit", "numită", "numita",
+    } and nxt and nxt not in _CA_CLAUSE_STARTERS:
+        return _apply_case(token, "ca")
+
+    # Speech / cognition / "este că" → că
+    if prev in _CA_CLAUSE_PREV or prev2 in _CA_CLAUSE_PREV:
+        return _apply_case(token, "că")
+
+    # Next starts a finite clause → că
+    if nxt in _CA_CLAUSE_STARTERS:
+        return _apply_case(token, "că")
+
+    # Cue-final or bare nominal complement → ca (e.g. "ca reper.")
+    if nxt and nxt not in _CA_CLAUSE_STARTERS:
+        return _apply_case(token, "ca")
+
     return _apply_case(token, "că")
+
+
+# Next tokens that keep "ca" (like/as)
+_CA_KEEP_NEXT = {
+    "fiind", "mine", "tine", "el", "ea", "noi", "voi", "ei", "ele",
+    "un", "o", "niște", "niste",
+    "acel", "acea", "acest", "acești", "acesti", "aceste",
+    "cel", "cea", "cei", "cele",
+    "orice", "oricine", "aici", "acolo",
+    "în", "in", "din", "la", "de", "pe", "cu", "prin", "după", "dupa", "până", "pana",
+    "și", "si",
+    "reper", "relații", "relatii", "locurile", "locuri",
+    "electronii", "fotonii", "oameni", "oamenii",
+    "tobe", "tobele", "tobă", "toba", "apa", "apă",
+    "mingea", "minge", "pian", "covrig", "cilindru",
+    "joc", "jocul", "asteroids", "asteroizi", "dodecaedru", "fotbal",
+    "oglinda", "oglindă", "sala", "sală", "hotel", "camera", "cameră",
+    "membrii", "membru", "existența", "existenta",
+}
+
+# After these, "că" introduces a clause
+_CA_CLAUSE_PREV = {
+    "că", "ca",  # won't apply
+    "crede", "cred", "credem", "credea", "crezut",
+    "spune", "spun", "spunea", "spus", "zice", "zic",
+    "realizează", "realizeaza", "realizat", "realizăm", "realizam",
+    "arătat", "aratat", "arată", "arata",
+    "descoperit", "descoperă", "descopera",
+    "declarat", "declară", "declara",
+    "înseamnă", "inseamna", "însemnă",
+    "pare", "par",  # "pare că" clause — handled carefully; "pare că" is că
+    "știe", "stie", "știm", "stim",
+    "vede", "vedem", "văzut", "vazut",
+    "simte", "simt", "simțit",
+    "sugeră", "sugera", "sugerează",
+    "dovedește", "dovedeste", "dovedesc", "dovedit",
+    "acceptă", "accepta", "acceptă",
+    "consideră", "considera",
+    "afirmă", "afirma",
+    "este", "e", "a", "fost", "era",  # "este că" / "a fost că"
+    "faptul", "ideea", "dovada", "dovadă", "problema", "problemă",
+    "înseamnă", "înseamna",
+}
+
+_CA_CLAUSE_STARTERS = {
+    "este", "e", "a", "am", "ai", "au", "are", "era", "eram", "erau",
+    "ar", "fi", "fost", "nu", "ne", "se", "îl", "il", "îi", "ii", "o",
+    "eu", "tu", "el", "ea", "noi", "voi", "ei", "ele",
+    "timpul", "spațiul", "spatiul", "lumea", "universul", "gravitația",
+    "toate", "toată", "toata", "tot", "totul", "ceea", "ce", "când", "cand",
+    "cum", "unde", "dacă", "daca", "să", "sa", "și", "si",
+    "există", "exista", "trebuie", "putem", "poate", "vor", "va", "voi", "vei", "vom",
+    "această", "aceasta", "acest", "acești", "aceste", "acea", "acel",
+    "fizica", "fizică", "mecanica", "mecanică", "teoria", "lumina", "lumină",
+    "mișcarea", "miscarea", "trecerea", "percepția", "perceptia",
+    "parmenide", "einstein", "newton", "julian", "lee", "sean", "tim", "steve",
+    "big", "flash-ul", "momentele", "momente", "legile", "răspunsul", "raspunsul",
+    "prezentul", "viitorul", "trecutul", "fotonul", "particulele", "energia",
+    "desincronizarea", "schizofrenia", "numărul", "numarul", "ziua", "moartea",
+    "caracteristicile", "aceeași", "aceeasi", "aceea", "același", "acelasi",
+}
 
 
 def _fix_va(token: str, after: str) -> str | None:
@@ -1577,8 +1597,63 @@ def correct_text(text: str) -> str:
 
 
 
+
+# Present-3sg forms that must revert to infinitive after future/modal auxiliaries
+_INFINITIVE_SURFACE = {
+    "ignoră": "ignora",
+    "explodă": "exploda",
+    "schimbă": "schimba",
+    "există": "exista",
+    "observă": "observa",
+    "determină": "determina",
+    "comunică": "comunica",
+    "comportă": "comporta",
+    "contă": "conta",
+    "dezvoltă": "dezvolta",
+    "creează": "crea",  # careful: crea not creeaza
+    "termină": "termina",
+    "refuză": "refuza",
+    "consideră": "considera",
+    "intră": "intra",
+    "urcă": "urca",
+    "sună": "suna",
+    "cântă": "canta",
+    "leagă": "lega",
+    "neagă": "nega",
+    "arăta": "arata",
+    "arată": "arata",
+    "reprezintă": "reprezenta",
+    "procesează": "procesa",
+    "provoacă": "provoca",
+    "ordonează": "ordona",
+    "funcționează": "functiona",
+}
+
+_INFINITIVE_AFTER_RE = re.compile(
+    r"\b(va|vor|voi|vei|vom|putem|putea|puteți|puteti|putem|de a|a)\s+("
+    + "|".join(re.escape(x) for x in sorted(_INFINITIVE_SURFACE, key=len, reverse=True))
+    + r")\b",
+    re.IGNORECASE,
+)
+
+
+def _restore_infinitives(text: str) -> str:
+    def repl(m: re.Match[str]) -> str:
+        aux, verb = m.group(1), m.group(2)
+        base = _INFINITIVE_SURFACE.get(verb.casefold()) or _INFINITIVE_SURFACE.get(verb)
+        # casefold keys are lowercase with diacritics
+        for k, v in _INFINITIVE_SURFACE.items():
+            if k.casefold() == verb.casefold():
+                return aux + " " + _apply_case(verb, v)
+        return m.group(0)
+
+    # Build case-insensitive map
+    return _INFINITIVE_AFTER_RE.sub(repl, text)
+
+
 def post_fix(text: str) -> str:
     """Fix over-corrections and remaining known issues."""
+    text = _restore_infinitives(text)
     repls = [
         # infinitive after modal/conditional auxiliaries: uita not uită
         (r"\b(te-ai|m-aș|v-ați|s-ar|aș|ai|ar|am|ați|vor|voi|vom|veți|ne vom|vă veți)\s+uită\b",
@@ -1687,6 +1762,25 @@ def post_fix(text: str) -> str:
         (r"\bcariera să\b", "cariera sa"),
         (r"\bboala sa\b", "boala sa"),
         (r"\bboala să\b", "boala sa"),
+
+        (r"\bîn neuroștiința\b", "în neuroștiință"),
+        (r"\bIn neuroștiința\b", "În neuroștiință"),
+        (r"\bneuroştiinţa\b", "neuroștiință"),
+        (r"\bneuroștiința\b", "neuroștiință"),  # default field name; definite rare in this corpus
+        (r"\bLinia Meridiana\b", "Linia Meridiană"),
+        (r"\bMeridiana\b", "Meridiană"),
+        (r"\bbun simt\b", "bun simț"),
+        (r"\bbe bun simt\b", "de bun simț"),
+        (r"\bde bun simt\b", "de bun simț"),
+        (r"\bne spune fizică\b", "ne spune fizica"),
+        (r"\bcă fizică a\b", "că fizica a"),
+        (r"\beste natură\b", "este natura"),
+        (r"\bașa este natură\b", "așa este natura"),
+        (r"\bcă se mișca\b", "că se mișcă"),
+        (r"\bsă pară că se mișca\b", "să pară că se mișcă"),
+        (r"\bpoate schimbă\b", "poate schimba"),
+        (r"\biți dai seama\b", "îți dai seama"),
+        (r"\bIți dai seama\b", "Îți dai seama"),
         (r"\bgaură de vierme\b", "gaura de vierme"),
         (r"\bGaură de vierme\b", "Gaura de vierme"),
         (r"\bprin gaură de\b", "prin gaura de"),
@@ -1713,6 +1807,25 @@ def post_fix(text: str) -> str:
         (r"\bcea mai buna\b", "cea mai bună"),
         (r"\bcariera să\b", "cariera sa"),
         (r"\bboala să\b", "boala sa"),
+
+        (r"\bîn neuroștiința\b", "în neuroștiință"),
+        (r"\bIn neuroștiința\b", "În neuroștiință"),
+        (r"\bneuroştiinţa\b", "neuroștiință"),
+        (r"\bneuroștiința\b", "neuroștiință"),  # default field name; definite rare in this corpus
+        (r"\bLinia Meridiana\b", "Linia Meridiană"),
+        (r"\bMeridiana\b", "Meridiană"),
+        (r"\bbun simt\b", "bun simț"),
+        (r"\bbe bun simt\b", "de bun simț"),
+        (r"\bde bun simt\b", "de bun simț"),
+        (r"\bne spune fizică\b", "ne spune fizica"),
+        (r"\bcă fizică a\b", "că fizica a"),
+        (r"\beste natură\b", "este natura"),
+        (r"\bașa este natură\b", "așa este natura"),
+        (r"\bcă se mișca\b", "că se mișcă"),
+        (r"\bsă pară că se mișca\b", "să pară că se mișcă"),
+        (r"\bpoate schimbă\b", "poate schimba"),
+        (r"\biți dai seama\b", "îți dai seama"),
+        (r"\bIți dai seama\b", "Îți dai seama"),
         (r"\bgaură de vierme\b", "gaura de vierme"),
         (r"\bGaură de vierme\b", "Gaura de vierme"),
         (r"\bprin gaură de\b", "prin gaura de"),

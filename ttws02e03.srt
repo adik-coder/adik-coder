@@ -199,7 +199,7 @@ de la început până la sfârșit.
 
 45
 00:02:50,790 --> 00:02:52,724
-Ceea ce realizăm în neuroștiința
+Ceea ce realizăm în neuroștiință
 
 46
 00:02:52,826 --> 00:02:55,695
@@ -321,7 +321,7 @@ din lume îl utilizează
 
 73
 00:04:09,971 --> 00:04:12,214
-că reper.
+ca reper.
 
 74
 00:04:13,640 --> 00:04:16,542
@@ -343,7 +343,7 @@ s-a născut aici.
 78
 00:04:23,818 --> 00:04:27,486
 în timpul unei conferințe mondiale
-s-a decis că Linia Meridiana
+s-a decis că Linia Meridiană
 
 79
 00:04:27,588 --> 00:04:30,690
@@ -454,7 +454,7 @@ Noi nu detectăm timpul absolut.
 
 103
 00:05:36,821 --> 00:05:39,889
-Noi detectăm timpul că relații
+Noi detectăm timpul ca relații
 dintre lucrurile care se întâmplă,
 
 104
@@ -719,7 +719,7 @@ Einstein a mai realizat
 
 164
 00:08:57,931 --> 00:09:02,434
-că gravitația este o manifestare
+ca gravitația este o manifestare
 a curbării spațio-timpului.
 
 165
@@ -812,7 +812,7 @@ să fie deja aici?
 
 184
 00:10:01,499 --> 00:10:03,365
-Fizică spune
+Fizica spune
 că toate momentele de timp
 
 185
@@ -837,7 +837,7 @@ Momentele diferite de timp
 
 190
 00:10:14,111 --> 00:10:15,644
-sunt că locurile diferite din spațiu.
+sunt ca locurile diferite din spațiu.
 
 191
 00:10:15,746 --> 00:10:16,779
@@ -1220,7 +1220,7 @@ câteva milionimi de secundă
 
 276
 00:14:32,539 --> 00:14:34,272
-pentru că creierul tău
+pentru ca creierul tău
 să pună împreună informații
 
 277
@@ -1249,7 +1249,7 @@ nu obține povestea corectă,
 
 282
 00:14:52,894 --> 00:14:55,496
-poate schimbă relația voastră cu timpul.
+poate schimba relația voastră cu timpul.
 
 283
 00:14:55,598 --> 00:14:59,033
@@ -1294,7 +1294,7 @@ dar nimic nu s-a schimbat.
 292
 00:15:21,724 --> 00:15:25,893
 Acest om a perceput
-lumea că ar fi accelerat.
+lumea ca ar fi accelerat.
 
 293
 00:15:25,995 --> 00:15:29,364
@@ -1379,7 +1379,7 @@ Nu ai ști ce lucruri ai cauzat
 
 312
 00:16:25,387 --> 00:16:28,222
-Pentru a arăta cât de flexibil
+Pentru a arata cât de flexibil
 poate fi timpul nostru personal,
 
 313
@@ -1475,7 +1475,7 @@ de la o persoană la altă,
 
 333
 00:17:35,725 --> 00:17:38,892
-și natură elastică
+și natura elastică
 a timpului nostru subiectiv
 
 334
@@ -1494,7 +1494,7 @@ pe care îl avem,
 
 337
 00:17:49,940 --> 00:17:52,774
-și că atunci când vom începe
+și ca atunci când vom începe
 să ne apropiem de adevăr,
 
 338
@@ -1507,7 +1507,7 @@ cum este timpul construit de creier,
 
 340
 00:17:56,915 --> 00:17:59,116
-va trebui să ne întoarcem la fizică
+va trebui să ne întoarcem la fizica
 
 341
 00:17:59,218 --> 00:18:02,019
@@ -1523,7 +1523,7 @@ Este posibil să eliminăm factorul uman
 
 344
 00:18:07,659 --> 00:18:10,059
-din descrierea noastră fizică
+din descrierea noastră fizica
 a Universului?
 
 345
@@ -1869,7 +1869,7 @@ rulate la 24 de cadre pe secundă
 423
 00:22:31,953 --> 00:22:35,989
 fac imaginile la care te uiți
-acum să pară că se mișca.
+acum să pară că se mișcă.
 
 424
 00:22:36,091 --> 00:22:39,025
@@ -2007,7 +2007,7 @@ ar putea fi așa.
 455
 00:24:22,393 --> 00:24:24,851
 Dar există o altă tabără
-care spune că nu putem ignoră
+care spune că nu putem ignora
 
 456
 00:24:24,952 --> 00:24:27,719
@@ -2028,7 +2028,7 @@ ca un flux de momente
 
 460
 00:24:39,967 --> 00:24:42,401
-pentru că așa este natură.
+pentru că așa este natura.
 
 461
 00:24:42,503 --> 00:24:46,171
@@ -2158,7 +2158,7 @@ fost duși de val cu matematică lor
 
 491
 00:26:07,526 --> 00:26:09,927
-și au pierdut contactul cu lumea fizică.
+și au pierdut contactul cu lumea fizica.
 
 492
 00:26:10,029 --> 00:26:11,962
@@ -2205,7 +2205,7 @@ Deci, timpul este la nivelul cel mai jos.
 
 502
 00:26:40,292 --> 00:26:42,593
-Cred că chiar asta ne spune fizică,
+Cred că chiar asta ne spune fizica,
 
 503
 00:26:42,695 --> 00:26:45,605
@@ -2357,7 +2357,7 @@ părțile mai vechi ale Universului,
 
 537
 00:28:25,366 --> 00:28:28,033
-vom ști că fizică a evoluat
+vom ști că fizica a evoluat
 
 538
 00:28:28,135 --> 00:28:30,536
@@ -2441,7 +2441,7 @@ cu exact aceeași viteză.
 
 556
 00:29:27,563 --> 00:29:29,530
-Dar dacă fizică luminii este diferită
+Dar dacă fizica luminii este diferită
 
 557
 00:29:29,632 --> 00:29:32,166
@@ -2533,7 +2533,7 @@ de ce există timp?
 
 577
 00:30:29,060 --> 00:30:32,595
-În teorie, fizică
+În teorie, fizica
 nu pare să aibă nevoie de timp,
 
 578
@@ -2613,7 +2613,7 @@ Probele sunt peste tot în jurul nostru.
 
 595
 00:31:34,734 --> 00:31:35,900
-Dar, că oameni de știință,
+Dar, ca oameni de știință,
 
 596
 00:31:36,002 --> 00:31:38,169
@@ -2626,7 +2626,7 @@ cu atât devine mai misterios.
 
 598
 00:31:39,940 --> 00:31:42,541
-Sean acceptă ideea de bun simt
+Sean acceptă ideea de bun simț
 
 599
 00:31:42,643 --> 00:31:46,210
@@ -2801,7 +2801,7 @@ un sistem fizic foarte simplu,
 
 638
 00:33:34,287 --> 00:33:35,653
-că două bile de biliard,
+ca două bile de biliard,
 
 639
 00:33:35,755 --> 00:33:37,431
@@ -2830,7 +2830,7 @@ sisteme complicate, macroscopice
 
 645
 00:33:48,467 --> 00:33:51,369
-va există o diferență
+va exista o diferență
 între trecut și viitor.
 
 646
@@ -2905,7 +2905,7 @@ a fost extrem de organizat.
 
 662
 00:34:36,615 --> 00:34:40,293
-Că fizicieni, acest tip
+Ca fizicieni, acest tip
 de dezechilibru ne da bătăi de cap.
 
 663
@@ -2967,7 +2967,7 @@ Deci, un Univers mamă
 
 676
 00:35:22,027 --> 00:35:24,861
-dă naștere la un univers că al nostru -
+dă naștere la un univers ca al nostru -
 
 677
 00:35:24,963 --> 00:35:29,598
@@ -3034,7 +3034,7 @@ la misterul timpului?
 691
 00:36:07,208 --> 00:36:09,708
 Ei bine, un mod de a face progrese
-în fizică spune,
+în fizica spune,
 
 692
 00:36:09,810 --> 00:36:12,044
@@ -3047,7 +3047,7 @@ Dacă acel lucru este adevărat?"
 
 694
 00:36:13,981 --> 00:36:16,114
-iți dai seama că,
+îți dai seama că,
 "acel salt ipotetic
 
 695
@@ -3276,7 +3276,7 @@ dacă timpul are o dimensiune în plus,
 746
 00:38:57,584 --> 00:39:00,985
 atunci particulele fundamentale
-că electronii și fotonii
+ca electronii și fotonii
 
 747
 00:39:01,087 --> 00:39:04,322
@@ -3384,7 +3384,7 @@ pe care nu o putem detecta.
 771
 00:40:04,785 --> 00:40:08,755
 Dacă este adevărat,
-această revoluționează fizică.
+această revoluționează fizica.
 
 772
 00:40:08,857 --> 00:40:12,825
@@ -3427,7 +3427,7 @@ ale spațiului din teoria corzilor,
 
 781
 00:40:35,949 --> 00:40:39,193
-și capetele oamenilor vor explodă.
+și capetele oamenilor vor exploda.
 
 782
 00:40:41,088 --> 00:40:43,888
@@ -3566,7 +3566,7 @@ experiența noastră umană
 813
 00:42:03,570 --> 00:42:06,906
 a ciclului nesfârșit
-de viață și moarte nu se va schimbă.
+de viață și moarte nu se va schimba.
 
 814
 00:42:07,008 --> 00:42:09,909
