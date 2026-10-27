@@ -953,7 +953,7 @@ _CA_CLAUSE_STARTERS = {
     "parmenide", "einstein", "newton", "julian", "lee", "sean", "tim", "steve",
     "big", "flash-ul", "momentele", "momente", "legile", "răspunsul", "raspunsul",
     "prezentul", "viitorul", "trecutul", "fotonul", "particulele", "energia",
-    "desincronizarea", "schizofrenia", "numărul", "numarul", "ziua", "moartea",
+    "desincronizarea", "schizofrenia", "ziua", "moartea",
     "caracteristicile", "aceeași", "aceeasi", "aceea", "același", "acelasi",
 }
 
@@ -1826,6 +1826,7 @@ def post_fix(text: str) -> str:
         (r"\bpoate schimbă\b", "poate schimba"),
         (r"\biți dai seama\b", "îți dai seama"),
         (r"\bIți dai seama\b", "Îți dai seama"),
+        (r"\bar fi că numărul\b", "ar fi ca numărul"),
         (r"\bgaură de vierme\b", "gaura de vierme"),
         (r"\bGaură de vierme\b", "Gaura de vierme"),
         (r"\bprin gaură de\b", "prin gaura de"),
