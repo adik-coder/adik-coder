@@ -272,7 +272,7 @@ Cea mai grea parte a muncii este
 
 62
 00:03:37,839 --> 00:03:41,841
-să faci această junglă de rotite
+să faci această junglă de rotițe
 
 63
 00:03:41,943 --> 00:03:44,119
@@ -356,7 +356,7 @@ avea să fie meridianul inițial -
 
 81
 00:04:33,428 --> 00:04:36,094
-timpul de referință pentru planetă Pământ.
+timpul de referință pentru planeta Pământ.
 
 82
 00:04:36,196 --> 00:04:40,031
@@ -440,7 +440,7 @@ indiferent de ce se întâmplă.
 
 100
 00:05:26,978 --> 00:05:31,681
-Problemă cu acest lucru este
+Problema cu acest lucru este
 că e de fapt imposibil
 
 101
@@ -648,7 +648,7 @@ așa cum l-a imaginat Einstein,
 
 148
 00:08:07,746 --> 00:08:11,791
-viață nu ar trebui să curgă
+viața nu ar trebui să curgă
 într-o progresie constantă și liniară.
 
 149
@@ -711,7 +711,7 @@ Asta este locul în care trăim.
 
 162
 00:08:53,659 --> 00:08:55,760
-Aici ne mișcăm și ne trăim viață.
+Aici ne mișcăm și ne trăim viața.
 
 163
 00:08:55,862 --> 00:08:57,829
@@ -1202,7 +1202,7 @@ la momente diferite.
 
 272
 00:14:22,729 --> 00:14:24,995
-Toată treabă asta este dispersată în timp,
+Toată treaba asta este dispersată în timp,
 
 273
 00:14:25,097 --> 00:14:27,364
@@ -1349,7 +1349,7 @@ o tulburare a percepției timpului.
 
 305
 00:16:06,703 --> 00:16:10,104
-Imaginați-vă dacă ar există o
+Imaginați-vă dacă ar exista o
 deficiență în percepția timpului
 
 306
@@ -1379,7 +1379,7 @@ Nu ai ști ce lucruri ai cauzat
 
 312
 00:16:25,387 --> 00:16:28,222
-Pentru a arata cât de flexibil
+Pentru a arăta cât de flexibil
 poate fi timpul nostru personal,
 
 313
@@ -1545,7 +1545,7 @@ Declarând că timpul este o iluzie
 
 349
 00:18:29,302 --> 00:18:30,535
-poate sună radical,
+poate suna radical,
 
 350
 00:18:30,637 --> 00:18:33,972
@@ -1847,7 +1847,7 @@ este o poză din cadrul altei pozei.
 
 418
 00:22:19,808 --> 00:22:23,243
-Cam așa este viață noastră cu adevărat.
+Cam așa este viața noastră cu adevărat.
 
 419
 00:22:23,345 --> 00:22:25,745
@@ -1919,7 +1919,7 @@ spunând că 11 a murit.
 
 435
 00:23:12,026 --> 00:23:15,327
-Matematicienii ar consideră asta ridicol.
+Matematicienii ar considera asta ridicol.
 
 436
 00:23:15,429 --> 00:23:18,531
@@ -1940,7 +1940,7 @@ e veșnic.
 440
 00:23:28,976 --> 00:23:33,113
 Punctul de vedere asupra timpului al lui
-Julian Barbour poate sună radical,
+Julian Barbour poate suna radical,
 
 441
 00:23:33,215 --> 00:23:36,817
@@ -2154,7 +2154,7 @@ Din cauza asta oamenii au
 
 490
 00:26:04,856 --> 00:26:07,424
-fost duși de val cu matematică lor
+fost duși de val cu matematica lor
 
 491
 00:26:07,526 --> 00:26:09,927
@@ -2373,7 +2373,7 @@ Ar trebui să existe unele experimente
 
 541
 00:28:36,745 --> 00:28:38,578
-în care să poți observă dacă,
+în care să poți observa dacă,
 
 542
 00:28:38,680 --> 00:28:41,381
@@ -2408,7 +2408,7 @@ ale Universului.
 
 549
 00:28:58,200 --> 00:29:02,034
-Aceste explozii ne dau șansă
+Aceste explozii ne dau șansa
 să verificăm legile fizicii
 
 550
@@ -2613,7 +2613,7 @@ Probele sunt peste tot în jurul nostru.
 
 595
 00:31:34,734 --> 00:31:35,900
-Dar, ca oameni de știință,
+Dar, ca oameni de știința,
 
 596
 00:31:36,002 --> 00:31:38,169
@@ -2821,7 +2821,7 @@ Dacă ai derula filmul înapoi,
 
 643
 00:33:44,130 --> 00:33:45,429
-ar arată perfect normal.
+ar arăta perfect normal.
 
 644
 00:33:45,531 --> 00:33:48,365
@@ -2850,7 +2850,7 @@ dar nu și în cealaltă.
 649
 00:33:56,776 --> 00:33:59,520
 Sau atunci când tot Iadul se dezlănțuie
-în sală de biliard.
+în sala de biliard.
 
 650
 00:34:08,919 --> 00:34:11,721
@@ -3128,7 +3128,7 @@ pe care nu o putem vedea?
 
 712
 00:37:29,231 --> 00:37:33,534
-Steve Weinstein, un om de știință
+Steve Weinstein, un om de știința
 la Institutul de Perimetru,
 
 713
@@ -3297,7 +3297,7 @@ la orice moment în timp.
 
 751
 00:39:11,465 --> 00:39:13,599
-Deci particulă,
+Deci particula,
 ar putea fi aici sau aici
 
 752
@@ -3336,7 +3336,7 @@ perpendiculară la gâtul chitarei,
 
 760
 00:39:32,652 --> 00:39:34,551
-Particulă ar putea fi -
+Particula ar putea fi -
 
 761
 00:39:34,653 --> 00:39:36,920
@@ -3384,7 +3384,7 @@ pe care nu o putem detecta.
 771
 00:40:04,785 --> 00:40:08,755
 Dacă este adevărat,
-această revoluționează fizica.
+aceasta revoluționează fizica.
 
 772
 00:40:08,857 --> 00:40:12,825
@@ -3540,7 +3540,7 @@ sau poate fi o iluzie.
 
 807
 00:41:48,588 --> 00:41:50,988
-Dar, din perspectivă noastră,
+Dar, din perspectiva noastră,
 
 808
 00:41:51,090 --> 00:41:53,157

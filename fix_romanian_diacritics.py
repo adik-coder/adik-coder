@@ -384,12 +384,10 @@ WORD_MAP: dict[str, str] = {
     "pasa": "pasă",
     "pasi": "păși",
     "pasii": "pașii",
-    "perspectiva": "perspectivă",
     "persoana": "persoană",
     "piatra": "piatră",
     "placere": "plăcere",
     "placut": "plăcut",
-    "planeta": "planetă",
     "plata": "plată",
     "poarta": "poartă",
     "porti": "porți",
@@ -399,7 +397,6 @@ WORD_MAP: dict[str, str] = {
     "pret": "preț",
     "pretul": "prețul",
     "primavara": "primăvară",
-    "problema": "problemă",
     "profunda": "profundă",
     "provocari": "provocări",
     "puternica": "puternică",
@@ -418,7 +415,7 @@ WORD_MAP: dict[str, str] = {
     "revoluționara": "revoluționară",
     "rotunda": "rotundă",
     "sala": "sală",
-    "sansa": "șansă",
+    "sansa": "șansa",
     "sanse": "șanse",
     "sansele": "șansele",
     "sange": "sânge",
@@ -456,7 +453,7 @@ WORD_MAP: dict[str, str] = {
         "stam": "stăm",
     "statea": "stătea",
     "stapan": "stăpân",
-    "stiinta": "știință",
+    "stiinta": "știința",
     "stiintei": "științei",
     "stiintifica": "științifică",
     "științifica": "științifică",
@@ -500,7 +497,6 @@ WORD_MAP: dict[str, str] = {
     "vant": "vânt",
     "vantul": "vântul",
     "varsta": "vârstă",
-    "viata": "viață",
     "vietii": "vieții",
     "vieti": "vieți",
     "vizibila": "vizibilă",
@@ -558,7 +554,6 @@ WORD_MAP: dict[str, str] = {
     "creeaza": "creează",
     "cuantica": "cuantică",
     "curbarii": "curbării",
-    "cursa": "cursă",
     "deblocati": "deblocați",
     "deficienta": "deficiență",
     "definiti": "definiți",
@@ -626,7 +621,6 @@ WORD_MAP: dict[str, str] = {
     "introdusa": "introdusă",
     "izbucneste": "izbucnește",
     "jumate": "jumătate",
-    "jungla": "junglă",
     "leaga": "leagă",
     "lenta": "lentă",
     "lucrati": "lucrați",
@@ -649,7 +643,6 @@ WORD_MAP: dict[str, str] = {
     "odata": "odată",
     "ordoneaza": "ordonează",
     "para": "pară",
-    "particula": "particulă",
     "perceptia": "percepția",
     "pereti": "pereți",
     "pocnesti": "pocnești",
@@ -670,7 +663,6 @@ WORD_MAP: dict[str, str] = {
     "relateaza": "relatează",
     "relatia": "relația",
     "revolutioneaza": "revoluționează",
-    "roata": "roată",
     "schimba": "schimbă",
     "secunda": "secundă",
     "serveasca": "servească",
@@ -688,7 +680,6 @@ WORD_MAP: dict[str, str] = {
     "tarziu": "târziu",
     "temporala": "temporală",
     "ticaie": "țicăie",
-    "treaba": "treabă",
     "treziti": "treziți",
     "uneasca": "unească",
     "universala": "universală",
@@ -699,6 +690,9 @@ WORD_MAP: dict[str, str] = {
     "verificam": "verificăm",
     "voastra": "voastră",
     "colmatata": "colmatată",
+    "rotite": "rotițe",
+    "curga": "curgă",
+    "viata": "viața",
     "comporta": "comportă",
     "comunica": "comunică",
     "conta": "contă",
@@ -789,6 +783,125 @@ def _build_lookup() -> dict[str, str]:
         if lk not in lookup:
             lookup[lk] = val
     return lookup
+
+
+
+# Nouns whose bare -a form is definite; convert to -ă only after indefinite determiners.
+_INDEFINITE_NOUNS = {
+    "problema": "problemă",
+    "viata": "viață",
+    "viaţa": "viață",
+    "planeta": "planetă",
+    "treaba": "treabă",
+    "perspectiva": "perspectivă",
+    "particula": "particulă",
+    "jungla": "junglă",
+    "cursa": "cursă",
+    "roata": "roată",
+    "casa": "casă",
+    "masa": "masă",
+    "sala": "sală",
+    "baza": "bază",
+    "graba": "grabă",
+    "comanda": "comandă",
+    "sansa": "șansă",
+    "strada": "stradă",
+    "poza": "poză",
+    "bula": "bulă",
+    "forma": "formă",
+    "lumina": "lumină",
+    "natura": "natură",
+    "fizica": "fizică",
+    "muzica": "muzică",
+    "matematica": "matematică",
+    "stiinta": "știință",
+    "știinta": "știință",
+}
+
+_INDEFINITE_PREV = {
+    "o", "unei", "niște", "niste", "vreo",
+    "această", "aceasta", "acea", "orice", "fiecare",
+    "multă", "multa", "puțină", "putina", "altă", "alta",
+    "prima", "singura", "aceeași", "aceeasi",
+}
+
+# After these adjectives (with "cea mai" / "mai"), noun takes indefinite -ă
+_INDEFINITE_ADJ_PREV = {
+    "grea", "mare", "mică", "mica", "bună", "buna", "frumoasă", "frumoasa",
+    "nouă", "noua", "lungă", "lunga", "scurtă", "scurta", "greu", "importantă",
+}
+
+
+def _fix_indefinite_noun(token: str, before: str) -> str | None:
+    key = token.casefold()
+    # also accept already-diacritic definite looking keys without ă
+    bare = key
+    if bare not in _INDEFINITE_NOUNS:
+        return None
+    prev_tokens = before.rstrip().split()
+    if not prev_tokens:
+        return None
+    prev = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", prev_tokens[-1], flags=re.UNICODE).casefold()
+    prev2 = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", prev_tokens[-2], flags=re.UNICODE).casefold() if len(prev_tokens) >= 2 else ""
+    if prev in _INDEFINITE_PREV:
+        return _apply_case(token, _INDEFINITE_NOUNS[bare])
+    if prev in _INDEFINITE_ADJ_PREV and prev2 in {"mai", "cea", "cel", "cele", "cei"}:
+        return _apply_case(token, _INDEFINITE_NOUNS[bare])
+    if prev2 == "mai" and prev in _INDEFINITE_ADJ_PREV:
+        return _apply_case(token, _INDEFINITE_NOUNS[bare])
+    return None
+
+
+def _restore_definite_phrases(text: str) -> str:
+    """Fix over-converted indefinite nouns that must be definite."""
+    pairs = [
+        (r"\bProblemă cu\b", "Problema cu"),
+        (r"\bproblemă cu\b", "problema cu"),
+        (r"\bviață nu\b", "viața nu"),
+        (r"\bViață nu\b", "Viața nu"),
+        (r"\bviață mea\b", "viața mea"),
+        (r"\bviață ta\b", "viața ta"),
+        (r"\bviață sa\b", "viața sa"),
+        (r"\bviață noastră\b", "viața noastră"),
+        (r"\bviață voastră\b", "viața voastră"),
+        (r"\bviață lor\b", "viața lor"),
+        (r"\beste viață\b", "este viața"),
+        (r"\bplanetă Pământ\b", "planeta Pământ"),
+        (r"\bplanetă Pamant\b", "planeta Pământ"),
+        (r"\bToată treabă\b", "Toată treaba"),
+        (r"\btoată treabă\b", "toată treaba"),
+        (r"\btreabă asta\b", "treaba asta"),
+        (r"\bperspectivă noastră\b", "perspectiva noastră"),
+        (r"\bperspectivă mea\b", "perspectiva mea"),
+        (r"\bmatematică lor\b", "matematica lor"),
+        (r"\bmatematică noastră\b", "matematica noastră"),
+        (r"\bParticulă ar\b", "Particula ar"),
+        (r"\bparticulă ar\b", "particula ar"),
+        (r"\bDeci particulă\b", "Deci particula"),
+        (r"\bo particulă\b", "o particulă"),  # keep indefinite
+        (r"\bAceastă revoluționează\b", "Aceasta revoluționează"),
+        (r"\baceastă revoluționează\b", "aceasta revoluționează"),
+        (r"\bdin perspectivă\b", "din perspectiva"),
+        (r"\bcu matematică lor\b", "cu matematica lor"),
+        (r"\bne dau șansă să\b", "ne dau șansa să"),
+        (r"\bin sală de\b", "în sala de"),
+        (r"\bîn sală de\b", "în sala de"),
+        (r"\beste o cursă\b", "este o cursă"),
+        (r"\bo cursă\b", "o cursă"),
+        (r"\bo planetă\b", "o planetă"),
+        (r"\bo problemă\b", "o problemă"),
+        (r"\bo viață\b", "o viață"),
+        (r"\bo junglă\b", "o junglă"),
+        (r"\baceastă junglă\b", "această junglă"),
+        (r"\baceastă roată\b", "această roată"),
+        (r"\bcea mai grea problemă\b", "cea mai grea problemă"),
+        (r"\bcea mai bună\b", "cea mai bună"),
+    ]
+    out = text
+    for pat, repl in pairs:
+        out = re.sub(pat, repl, out)
+    return out
+
 
 
 LOOKUP = _build_lookup()
@@ -1127,6 +1240,8 @@ def correct_text(text: str) -> str:
             result.append(_fix_va(token, after) or token)
         elif key == "aceasta":
             result.append(_fix_aceasta(token, after))
+        elif (fixed := _fix_indefinite_noun(token, before)) is not None:
+            result.append(fixed)
         elif key in LOOKUP:
             result.append(_apply_case(token, LOOKUP[key]))
         else:
@@ -1620,8 +1735,8 @@ _INFINITIVE_SURFACE = {
     "cântă": "canta",
     "leagă": "lega",
     "neagă": "nega",
-    "arăta": "arata",
-    "arată": "arata",
+    "arată": "arăta",
+    "arata": "arăta",
     "reprezintă": "reprezenta",
     "procesează": "procesa",
     "provoacă": "provoca",
@@ -1630,7 +1745,7 @@ _INFINITIVE_SURFACE = {
 }
 
 _INFINITIVE_AFTER_RE = re.compile(
-    r"\b(va|vor|voi|vei|vom|putem|putea|puteți|puteti|putem|de a|a)\s+("
+    r"\b(va|vor|voi|vei|vom|putem|putea|puteți|puteti|poți|poti|poate|ar|de a|a)\s+("
     + "|".join(re.escape(x) for x in sorted(_INFINITIVE_SURFACE, key=len, reverse=True))
     + r")\b",
     re.IGNORECASE,
@@ -1654,6 +1769,7 @@ def _restore_infinitives(text: str) -> str:
 def post_fix(text: str) -> str:
     """Fix over-corrections and remaining known issues."""
     text = _restore_infinitives(text)
+    text = _restore_definite_phrases(text)
     repls = [
         # infinitive after modal/conditional auxiliaries: uita not uită
         (r"\b(te-ai|m-aș|v-ați|s-ar|aș|ai|ar|am|ați|vor|voi|vom|veți|ne vom|vă veți)\s+uită\b",
