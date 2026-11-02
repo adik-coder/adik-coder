@@ -281,6 +281,7 @@ WORD_MAP: dict[str, str] = {
     "fete": "fețe",
     "fiinta": "ființă",
     "fiinte": "ființe",
+    "fiintele": "ființele",
     "finita": "finită",
     # "fizica"/"natura" are usually definite forms — do NOT map to fizică/natură
         "forta": "forță",
@@ -312,7 +313,6 @@ WORD_MAP: dict[str, str] = {
     "inflatia": "inflația",
     "informatii": "informații",
     "ingraditura": "îngrăditură",
-    "inima": "inimă",
     "insmaimantator": "înspăimântător",
     "inspaimantator": "înspăimântător",
     "inspaimantatoare": "înspăimântătoare",
@@ -518,6 +518,7 @@ WORD_MAP: dict[str, str] = {
     "apasati": "apăsați",
     "apesi": "apeși",
     "aplicata": "aplicată",
+    "aplica": "aplică",
     "aproximatie": "aproximație",
     "aratam": "arătăm",
     "asambleaza": "asamblează",
@@ -1421,6 +1422,7 @@ def _build_lookup() -> dict[str, str]:
 # Nouns whose bare -a form is definite; convert to -ă only after indefinite determiners.
 _INDEFINITE_NOUNS = {
     "problema": "problemă",
+    "inima": "inimă",
     "viata": "viață",
     "viaţa": "viață",
     "planeta": "planetă",
@@ -1512,6 +1514,18 @@ def _restore_definite_phrases(text: str) -> str:
         (r"\bviață noastră\b", "viața noastră"),
         (r"\bviață voastră\b", "viața voastră"),
         (r"\bviață lor\b", "viața lor"),
+        (r"\binimă lor\b", "inima lor"),
+        (r"\bInimă lor\b", "Inima lor"),
+        (r"\binimă mea\b", "inima mea"),
+        (r"\binimă ta\b", "inima ta"),
+        (r"\binimă sa\b", "inima sa"),
+        (r"\binimă noastră\b", "inima noastră"),
+        (r"\binimă voastră\b", "inima voastră"),
+        (r"\binimă unei\b", "inima unei"),
+        (r"\binimă unui\b", "inima unui"),
+        (r"\binimă ([a-zăâîșțA-ZĂÂÎȘȚ]+(?:ului|ei|elor|ilor))\b", r"inima \1"),
+        (r"\bInimă ([a-zăâîșțA-ZĂÂÎȘȚ]+(?:ului|ei|elor|ilor))\b", r"Inima \1"),
+
         (r"\beste viață\b", "este viața"),
         (r"\bexista viața\b", "exista viață"),
         (r"\bexistă viața\b", "există viață"),
@@ -1615,18 +1629,29 @@ def _fix_ca(token: str, before: str, after: str) -> str | None:
     """Disambiguate ca (like/as) vs că (that/because)."""
     rest = after.lstrip()
     prev_tokens = before.rstrip().split()
-    prev = prev_tokens[-1].casefold() if prev_tokens else ""
-    prev2 = prev_tokens[-2].casefold() if len(prev_tokens) >= 2 else ""
+    prev = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", prev_tokens[-1], flags=re.UNICODE).casefold() if prev_tokens else ""
+    prev2 = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", prev_tokens[-2], flags=re.UNICODE).casefold() if len(prev_tokens) >= 2 else ""
 
     nxt_raw = rest.split()[0] if rest.split() else ""
     nxt = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", nxt_raw, flags=re.UNICODE).casefold()
 
+    # "pentru ca să …" (purpose) vs "pentru că [verb] …" (because)
+    if prev == "pentru":
+        if re.match(r"(?is)^(să|sa)\b", rest):
+            return _apply_case(token, "ca")
+        return _apply_case(token, "că")
+
     # Purpose / fixed phrases
-    if rest.casefold().startswith("să ") or rest.casefold().startswith("sa "):
+    if re.match(r"(?is)^(să|sa)\b", rest):
         return _apply_case(token, "ca")
-    if rest.casefold().startswith("și ") or rest.casefold().startswith("si "):
+    if re.match(r"(?is)^(și|si)\b", rest):
         return _apply_case(token, "ca")
-    if prev2 == "mai" or prev in {"fel", "cum", "face", "fac", "făcea", "făcut", "aproape"}:
+
+    # "ca, de exemplu" / "ca, …" exemplification or parenthetical comparison
+    if re.match(r"(?is)^,\s*(de\s+exemplu\b)?", rest):
+        return _apply_case(token, "ca")
+
+    if prev2 == "mai" or prev in {"fel", "cum", "face", "fac", "făcea", "făcut", "aproape", "precum", "asemenea"}:
         return _apply_case(token, "ca")
 
     # Possessive "al/ai/ale" and "ca ar fi"
@@ -1641,7 +1666,11 @@ def _fix_ca(token: str, before: str, after: str) -> str | None:
     if nxt in _CA_KEEP_NEXT:
         return _apply_case(token, "ca")
 
-    # "pare că …" is a clause (not comparison)
+    # After cognition / speech / calculation verbs → că (including before un/o)
+    if prev in _CA_CLAUSE_PREV or prev2 in _CA_CLAUSE_PREV:
+        return _apply_case(token, "că")
+
+    # "pare că …" clause starters
     if prev in {"pare", "par", "părea", "parea"} and nxt in _CA_CLAUSE_STARTERS:
         return _apply_case(token, "că")
 
@@ -1651,12 +1680,20 @@ def _fix_ca(token: str, before: str, after: str) -> str | None:
         "utilizează", "utilizeaza", "folosește", "foloseste", "folosim",
         "detectăm", "detectam", "detectează", "detecteaza",
         "perceput", "văzut", "vazut", "descris", "numit", "numită", "numita",
+        "organism", "organisme", "organismele", "super-organism", "superorganism",
+        "rețele", "retele", "rețelele", "retelele", "structurate",
     } and nxt and nxt not in _CA_CLAUSE_STARTERS:
         return _apply_case(token, "ca")
 
-    # Speech / cognition / "este că" → că
-    if prev in _CA_CLAUSE_PREV or prev2 in _CA_CLAUSE_PREV:
-        return _apply_case(token, "că")
+    # "ca un/o …" is comparison UNLESS a clause verb clearly follows in the same span
+    if nxt in {"un", "o", "niște", "niste"}:
+        # Finite-clause cue soon after the NP → că ("calculeze că un animal … ar trebui")
+        if re.search(
+            r"(?is)\b(un|o|niște|niste)\b.{0,80}\b(ar|are|este|e|a|au|trebuie|poate|vor|va|era|erau)\b",
+            rest,
+        ):
+            return _apply_case(token, "că")
+        return _apply_case(token, "ca")
 
     # Next starts a finite clause → că
     if nxt in _CA_CLAUSE_STARTERS:
@@ -1669,10 +1706,9 @@ def _fix_ca(token: str, before: str, after: str) -> str | None:
     return _apply_case(token, "că")
 
 
-# Next tokens that keep "ca" (like/as)
+# Next tokens that keep "ca" (like/as). Do NOT include un/o — handled above.
 _CA_KEEP_NEXT = {
     "fiind", "mine", "tine", "el", "ea", "noi", "voi", "ei", "ele",
-    "un", "o", "niște", "niste",
     "acel", "acea", "acest", "acești", "acesti", "aceste",
     "cel", "cea", "cei", "cele",
     "orice", "oricine", "aici", "acolo",
@@ -1685,11 +1721,11 @@ _CA_KEEP_NEXT = {
     "joc", "jocul", "asteroids", "asteroizi", "dodecaedru", "fotbal",
     "oglinda", "oglindă", "sala", "sală", "hotel", "camera", "cameră",
     "membrii", "membru", "existența", "existenta",
+    "orașul", "orasul", "orașe", "orase", "organismul", "organismele",
 }
 
 # After these, "că" introduces a clause
 _CA_CLAUSE_PREV = {
-    "că", "ca",  # won't apply
     "crede", "cred", "credem", "credea", "crezut",
     "spune", "spun", "spunea", "spus", "zice", "zic",
     "realizează", "realizeaza", "realizat", "realizăm", "realizam",
@@ -1697,23 +1733,28 @@ _CA_CLAUSE_PREV = {
     "descoperit", "descoperă", "descopera",
     "declarat", "declară", "declara",
     "înseamnă", "inseamna", "însemnă",
-    "pare", "par",  # "pare că" clause — handled carefully; "pare că" is că
+    "pare", "par",
     "știe", "stie", "știm", "stim",
     "vede", "vedem", "văzut", "vazut",
     "simte", "simt", "simțit",
     "sugeră", "sugera", "sugerează",
     "dovedește", "dovedeste", "dovedesc", "dovedit",
-    "acceptă", "accepta", "acceptă",
+    "acceptă", "accepta",
     "consideră", "considera",
     "afirmă", "afirma",
-    "este", "e", "a", "fost", "era",  # "este că" / "a fost că"
+    "este", "e", "a", "fost", "era",
     "faptul", "ideea", "dovada", "dovadă", "problema", "problemă",
-    "înseamnă", "înseamna",
+    "calculeze", "calculează", "calculeaza", "calcula", "calculez", "calculăm", "calculam",
+    "permită", "permite", "permit", "permis",
+    "arăta", "demonstreze", "demonstrează", "demonstreaza",
+    "înțeleagă", "inteleaga", "înțelege", "intelege",
+    "arate", "arate", "explice", "explică", "explica",
+    "reprezintă", "reprezinta",
 }
 
 _CA_CLAUSE_STARTERS = {
     "este", "e", "a", "am", "ai", "au", "are", "era", "eram", "erau",
-    "ar", "fi", "fost", "nu", "ne", "se", "îl", "il", "îi", "ii", "o",
+    "ar", "fi", "fost", "nu", "ne", "se", "îl", "il", "îi", "ii",
     "eu", "tu", "el", "ea", "noi", "voi", "ei", "ele",
     "timpul", "spațiul", "spatiul", "lumea", "universul", "gravitația",
     "toate", "toată", "toata", "tot", "totul", "ceea", "ce", "când", "cand",
@@ -1727,7 +1768,9 @@ _CA_CLAUSE_STARTERS = {
     "prezentul", "viitorul", "trecutul", "fotonul", "particulele", "energia",
     "desincronizarea", "schizofrenia", "ziua", "moartea",
     "caracteristicile", "aceeași", "aceeasi", "aceea", "același", "acelasi",
+    "reprezintă", "reprezinta", "înseamnă", "inseamna",
 }
+
 
 
 def _fix_va(token: str, after: str) -> str | None:
@@ -1877,8 +1920,8 @@ def _fix_uita(token: str, before: str, after: str) -> str:
     return _apply_case(token, "uită")
 
 
-def correct_text(text: str) -> str:
-    chars = list(text)
+def correct_text(text: str, before_context: str = "") -> str:
+    """Correct tokens in text. before_context = prior dialogue (e.g. previous cue)."""
     # Work on the string with regex substitution that has lookaround via positions
     result: list[str] = []
     last = 0
@@ -1886,7 +1929,7 @@ def correct_text(text: str) -> str:
         result.append(text[last : m.start()])
         token = m.group(0)
         key = token.casefold()
-        before = text[: m.start()]
+        before = before_context + text[: m.start()]
         after = text[m.end() :]
 
         if key in SKIP_TOKENS:
@@ -2415,6 +2458,7 @@ def correct_text(text: str) -> str:
 # Present-3sg forms that must revert to infinitive after future/modal auxiliaries
 _INFINITIVE_SURFACE = {
     "ignoră": "ignora",
+    "aplică": "aplica",
     "explodă": "exploda",
     "schimbă": "schimba",
     "există": "exista",
@@ -2642,6 +2686,16 @@ def post_fix(text: str) -> str:
         (r"\biți dai seama\b", "îți dai seama"),
         (r"\bIți dai seama\b", "Îți dai seama"),
         (r"\bar fi că numărul\b", "ar fi ca numărul"),
+        # ca vs că — exemplification / because / clause
+        (r"(?is)\borganism că,", "organism ca,"),
+        (r"(?is)\bcă,\s*de exemplu\b", "ca, de exemplu"),
+        (r"(?is)\bCă,\s*de exemplu\b", "Ca, de exemplu"),
+        (r"(?is)\bpentru ca(?!\s+să\b)(?=\s+\w)", "pentru că"),
+        (r"(?is)\bPentru ca(?!\s+să\b)(?=\s+\w)", "Pentru că"),
+        (r"(?is)\bcalculeze\s+ca\b", "calculeze că"),
+        (r"(?is)\bcalculează\s+ca\b", "calculează că"),
+        (r"(?is)\bcalculeaza\s+ca\b", "calculează că"),
+
         (r"\bgaură de vierme\b", "gaura de vierme"),
         (r"\bGaură de vierme\b", "Gaura de vierme"),
         (r"\bprin gaură de\b", "prin gaura de"),
@@ -2653,31 +2707,75 @@ def post_fix(text: str) -> str:
 
 
 def process_srt(content: str) -> str:
+    """Correct dialogue per subtitle cue; carry prior cue text for ca/că context."""
     content = content.lstrip("\ufeff")
     lines = content.splitlines(keepends=True)
     out: list[str] = []
-    for line in lines:
-        raw = line.rstrip("\r\n")
-        ending = line[len(raw) :]
-        stripped = raw.strip()
-        if not stripped or re.fullmatch(r"\d+", stripped):
-            out.append(line)
-            continue
-        if re.match(
-            r"\d{2}:\d{2}:\d{2}[,.]\d{3}\s*-->\s*\d{2}:\d{2}:\d{2}[,.]\d{3}",
-            stripped,
-        ):
-            out.append(line)
-            continue
-        parts = re.split(r"(<[^>]+>)", raw)
+    i = 0
+    prev_cue = ""
+    ts_re = re.compile(
+        r"\d{2}:\d{2}:\d{2}[,.]\d{3}\s*-->\s*\d{2}:\d{2}:\d{2}[,.]\d{3}"
+    )
+
+    def fix_dialogue(text: str, before_context: str = "") -> str:
+        parts = re.split(r"(<[^>]+>)", text)
         fixed: list[str] = []
+        # before_context only applies to the first non-tag segment start
+        ctx = before_context
         for part in parts:
             if part.startswith("<") and part.endswith(">"):
                 fixed.append(part)
             else:
-                fixed.append(correct_text(normalize_cedillas(part)))
-        out.append("".join(fixed) + ending)
+                fixed.append(correct_text(normalize_cedillas(part), before_context=ctx))
+                ctx = ""  # subsequent segments only see in-text before
+        return "".join(fixed)
+
+    while i < len(lines):
+        raw = lines[i]
+        stripped = raw.strip()
+        if re.fullmatch(r"\d+", stripped):
+            out.append(raw)
+            i += 1
+            if i < len(lines) and ts_re.match(lines[i].strip()):
+                out.append(lines[i])
+                i += 1
+                cue_lines: list[str] = []
+                while i < len(lines):
+                    s = lines[i].strip()
+                    if not s:
+                        break
+                    if re.fullmatch(r"\d+", s) or ts_re.match(s):
+                        break
+                    cue_lines.append(lines[i])
+                    i += 1
+                if cue_lines:
+                    endings = [ln[len(ln.rstrip("\r\n")) :] for ln in cue_lines]
+                    bodies = [ln.rstrip("\r\n") for ln in cue_lines]
+                    joined = "\n".join(bodies)
+                    # Prior cue tail (last ~12 words) disambiguates line-initial ca/că
+                    ctx = (" ".join(prev_cue.split()[-12:]) + " ") if prev_cue else ""
+                    fixed_joined = fix_dialogue(joined, before_context=ctx)
+                    fixed_bodies = fixed_joined.split("\n")
+                    if len(fixed_bodies) != len(bodies):
+                        fixed_bodies = [
+                            fix_dialogue(b, before_context=ctx if n == 0 else "")
+                            for n, b in enumerate(bodies)
+                        ]
+                    for body, ending in zip(fixed_bodies, endings):
+                        out.append(body + ending)
+                    prev_cue = fixed_joined
+                continue
+            continue
+        if not stripped:
+            out.append(raw)
+            i += 1
+            continue
+        fixed = fix_dialogue(raw.rstrip("\r\n"), before_context=(" ".join(prev_cue.split()[-12:]) + " ") if prev_cue else "")
+        out.append(fixed + raw[len(raw.rstrip("\r\n")) :])
+        prev_cue = fixed
+        i += 1
     return "".join(out)
+
 
 
 def main(argv: list[str] | None = None) -> int:
