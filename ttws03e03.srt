@@ -108,7 +108,7 @@ sclipind pe cerul negru din Mississippi.
 
 26
 00:02:04,218 --> 00:02:08,076
-Și ele pareau să conțină ceva viu.
+Și ele păreau să conțină ceva viu.
 
 27
 00:02:08,189 --> 00:02:10,879
@@ -124,7 +124,7 @@ inclusiv întinderile vaste de spațiu gol,
 
 30
 00:02:16,831 --> 00:02:18,487
-pare să sfideze logică.
+pare să sfideze logica.
 
 31
 00:02:18,600 --> 00:02:23,925
@@ -185,7 +185,7 @@ asemănător informației din ADN
 
 45
 00:03:00,541 --> 00:03:03,431
-pe care le purtam cu toții în celule.
+pe care le purtăm cu toții în celule.
 
 46
 00:03:03,544 --> 00:03:07,302
@@ -194,7 +194,7 @@ aceste definiții,
 
 47
 00:03:07,415 --> 00:03:09,838
-va trebui să admiti ca
+va trebui să admiți că
 până și mașinile sunt vii.
 
 48
@@ -221,7 +221,7 @@ ar trebui considerați vii.
 
 53
 00:03:26,267 --> 00:03:29,124
-Crede de asemenea ca un singur organism viu
+Crede de asemenea că un singur organism viu
 
 54
 00:03:29,237 --> 00:03:31,960
@@ -666,11 +666,11 @@ Sunt, desigur, mai multe scale.
 
 156
 00:08:52,994 --> 00:08:55,717
-Putem să trecem de la scală orașelor
+Putem să trecem de la scala orașelor
 
 157
 00:08:55,830 --> 00:09:00,188
-la scală țărilor, apoi la scală planetară.
+la scala țărilor, apoi la scală planetară.
 
 158
 00:09:00,301 --> 00:09:05,560
@@ -1911,7 +1911,7 @@ calculatoare din atomi,
 
 441
 00:24:22,338 --> 00:24:26,930
-extragând logică
+extragând logica
 din legile mecanicii cuantice.
 
 442
@@ -2819,7 +2819,7 @@ toate creierele umane laolalta.
 
 651
 00:35:43,526 --> 00:35:45,682
-Poate parea deplasat că
+Poate părea deplasat că
 
 652
 00:35:45,795 --> 00:35:49,152

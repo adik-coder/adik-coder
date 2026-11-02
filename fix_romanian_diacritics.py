@@ -375,6 +375,10 @@ WORD_MAP: dict[str, str] = {
     "pamantul": "pământul",
     "pamantului": "pământului",
     "parere": "părere",
+    "admiti": "admiți",
+    "purtam": "purtăm",
+    "parea": "părea",
+    "pareau": "păreau",
     "parinti": "părinți",
     "parintii": "părinții",
     "parti": "părți",
@@ -844,7 +848,6 @@ WORD_MAP: dict[str, str] = {
     'invizibila': 'invizibilă',
     'iti': 'îți',
     'livreaza': 'livrează',
-    'logica': 'logică',
     'lucrand': 'lucrând',
     'mancare': 'mâncare',
     'masinile': 'mașinile',
@@ -913,7 +916,6 @@ WORD_MAP: dict[str, str] = {
     'saracie': 'sărăcie',
     'sarpe': 'șarpe',
     'sateliti': 'sateliți',
-    'scala': 'scală',
     'scapa': 'scapă',
     'scoala': 'școala',
     'secretia': 'secreția',
@@ -1423,6 +1425,8 @@ def _build_lookup() -> dict[str, str]:
 _INDEFINITE_NOUNS = {
     "problema": "problemă",
     "inima": "inimă",
+    "logica": "logică",
+    "scala": "scală",
     "viata": "viață",
     "viaţa": "viață",
     "planeta": "planetă",
@@ -1525,6 +1529,13 @@ def _restore_definite_phrases(text: str) -> str:
         (r"\binimă unui\b", "inima unui"),
         (r"\binimă ([a-zăâîșțA-ZĂÂÎȘȚ]+(?:ului|ei|elor|ilor))\b", r"inima \1"),
         (r"\bInimă ([a-zăâîșțA-ZĂÂÎȘȚ]+(?:ului|ei|elor|ilor))\b", r"Inima \1"),
+        (r"\bscală ([a-zăâîșțA-ZĂÂÎȘȚ]+(?:ului|ei|elor|ilor))\b", r"scala \1"),
+        (r"\bScală ([a-zăâîșțA-ZĂÂÎȘȚ]+(?:ului|ei|elor|ilor))\b", r"Scala \1"),
+        (r"\bsfideze logică\b", "sfideze logica"),
+        (r"\bSfideze logică\b", "Sfideze logica"),
+        (r"\blogică\.", "logica."),
+        (r"\bînțelege logică\b", "înțelege logica"),
+
 
         (r"\beste viață\b", "este viața"),
         (r"\bexista viața\b", "exista viață"),
@@ -1651,7 +1662,12 @@ def _fix_ca(token: str, before: str, after: str) -> str | None:
     if re.match(r"(?is)^,\s*(de\s+exemplu\b)?", rest):
         return _apply_case(token, "ca")
 
-    if prev2 == "mai" or prev in {"fel", "cum", "face", "fac", "făcea", "făcut", "aproape", "precum", "asemenea"}:
+    # "de asemenea că …" is NOT comparison ("asemenea" alone can be)
+    if prev == "asemenea" and prev2 == "de":
+        pass  # fall through to clause / un-o logic
+    elif prev2 == "mai" or prev in {"fel", "cum", "face", "fac", "făcea", "făcut", "aproape", "precum"}:
+        return _apply_case(token, "ca")
+    elif prev == "asemenea" and prev2 != "de":
         return _apply_case(token, "ca")
 
     # Possessive "al/ai/ale" and "ca ar fi"
@@ -1667,7 +1683,9 @@ def _fix_ca(token: str, before: str, after: str) -> str | None:
         return _apply_case(token, "ca")
 
     # After cognition / speech / calculation verbs → că (including before un/o)
-    if prev in _CA_CLAUSE_PREV or prev2 in _CA_CLAUSE_PREV:
+    # Also "Crede de asemenea că …" (verb two tokens back)
+    prev3 = re.sub(r"[^\wăâîșțĂÂÎȘȚ\-]+", "", prev_tokens[-3], flags=re.UNICODE).casefold() if len(prev_tokens) >= 3 else ""
+    if prev in _CA_CLAUSE_PREV or prev2 in _CA_CLAUSE_PREV or prev3 in _CA_CLAUSE_PREV:
         return _apply_case(token, "că")
 
     # "pare că …" clause starters
@@ -1727,6 +1745,8 @@ _CA_KEEP_NEXT = {
 # After these, "că" introduces a clause
 _CA_CLAUSE_PREV = {
     "crede", "cred", "credem", "credea", "crezut",
+    "admiti", "admiți", "admite", "admit", "admis",
+    "admiti", "admiți", "admite", "admit", "admis",
     "spune", "spun", "spunea", "spus", "zice", "zic",
     "realizează", "realizeaza", "realizat", "realizăm", "realizam",
     "arătat", "aratat", "arată", "arata",
@@ -2509,10 +2529,38 @@ def _restore_infinitives(text: str) -> str:
     return _INFINITIVE_AFTER_RE.sub(repl, text)
 
 
+
+def _fix_scale_noun(text: str) -> str:
+    """scala (definite + genitive) vs scală (indefinite / + adjective)."""
+    def repl(m: re.Match[str]) -> str:
+        head, word = m.group(1), m.group(2)
+        # keep case of head's first letter
+        def form(definite: bool) -> str:
+            base = "scala" if definite else "scală"
+            return base.capitalize() if head[0].isupper() else base
+        if re.search(r"(ului|ei|elor|ilor)$", word, re.IGNORECASE):
+            return form(True) + " " + word
+        # feminine/participial adjectives and similar complements → indefinite
+        if re.search(r"[ăâ]$", word, re.IGNORECASE) or word.casefold() in {
+            "planetara", "planetară", "colosala", "colosală", "larga", "largă",
+            "mica", "mică", "mare", "diferita", "diferită", "inimaginabila",
+            "inimaginabilă", "cosmica", "cosmică", "umana", "umană",
+        }:
+            return form(False) + " " + word
+        return m.group(0)
+
+    return re.sub(
+        r"\b(scal[aă]|Scal[aă]|SCALA)\s+([A-Za-zăâîșțĂÂÎȘȚ]+)\b",
+        repl,
+        text,
+    )
+
+
 def post_fix(text: str) -> str:
     """Fix over-corrections and remaining known issues."""
     text = _restore_infinitives(text)
     text = _restore_definite_phrases(text)
+    text = _fix_scale_noun(text)
     repls = [
         # infinitive after modal/conditional auxiliaries: uita not uită
         (r"\b(te-ai|m-aș|v-ați|s-ar|aș|ai|ar|am|ați|vor|voi|vom|veți|ne vom|vă veți)\s+uită\b",
@@ -2695,6 +2743,12 @@ def post_fix(text: str) -> str:
         (r"(?is)\bcalculeze\s+ca\b", "calculeze că"),
         (r"(?is)\bcalculează\s+ca\b", "calculează că"),
         (r"(?is)\bcalculeaza\s+ca\b", "calculează că"),
+        (r"(?is)\bde asemenea ca\b", "de asemenea că"),
+        (r"(?is)\bDe asemenea ca\b", "De asemenea că"),
+        (r"(?is)\badmiti ca\b", "admiți că"),
+        (r"(?is)\badmiți ca\b", "admiți că"),
+        (r"(?is)\bsă admiti\b", "să admiți"),
+
 
         (r"\bgaură de vierme\b", "gaura de vierme"),
         (r"\bGaură de vierme\b", "Gaura de vierme"),
