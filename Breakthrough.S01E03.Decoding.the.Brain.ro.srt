@@ -1,0 +1,2967 @@
+1
+00:00:01,700 --> 00:00:02,740
+(muzică dramatică)
+
+2
+00:00:04,400 --> 00:00:07,160
+(muzică dramatică)
+
+3
+00:00:30,000 --> 00:00:32,740
+(muzică dramatică)
+
+4
+00:01:00,925 --> 00:01:03,740
+(muzică dramatică)
+
+5
+00:01:06,240 --> 00:01:08,980
+(muzică dramatică)
+
+6
+00:01:31,000 --> 00:01:33,280
+Ce te face să fii cine ești?
+
+7
+00:01:33,281 --> 00:01:37,020
+Ești un robot ce urmează un program?
+
+8
+00:01:37,021 --> 00:01:42,720
+Putem schimba, și oare trebuie,
+amintirile care ne distrug viețile?
+
+9
+00:01:44,320 --> 00:01:48,480
+Răspunsurile stau în rețeaua
+de impulsuri electrice din craniu.
+
+10
+00:01:51,480 --> 00:01:55,040
+Creierul tău e o mașinărie
+organică incredibilă,
+
+11
+00:01:55,041 --> 00:01:58,640
+care produce ceva mult mai mare
+decât suma părților sale.
+
+12
+00:02:00,640 --> 00:02:04,440
+Știința de ultimă oră ne permite
+să le studiem ca niciodată.
+
+13
+00:02:06,640 --> 00:02:09,919
+Explorez procesele ascunse
+care ne formează identitățile
+
+14
+00:02:12,874 --> 00:02:16,080
+și ofer o speranță nouă
+celor cu afecțiuni cerebrale.
+
+15
+00:02:20,360 --> 00:02:22,400
+Creierul este un sistem electric.
+
+16
+00:02:22,401 --> 00:02:27,000
+Așa măsurăm activitatea creierului.
+
+17
+00:02:28,680 --> 00:02:32,900
+Celulele comunică trimițându-și
+impulsuri electrice unele altora.
+
+18
+00:02:35,560 --> 00:02:37,560
+Mohamad Koubeissi este directorul
+
+19
+00:02:37,561 --> 00:02:41,040
+Centrului de Epilepsie al Spitalului
+Universitar George Washington.
+
+20
+00:02:42,350 --> 00:02:45,340
+Cercetarea lui de pionierat dezvăluie
+cum furtunile electrice
+
+21
+00:02:45,341 --> 00:02:49,280
+din creier produc memoria
+și conștiința
+
+22
+00:02:49,281 --> 00:02:51,940
+și cum îi putem ajuta pe cei
+al căror creier dă rateuri.
+
+23
+00:02:52,920 --> 00:02:56,600
+Încă din anii de facultate
+am decis să devin epileptolog,
+
+24
+00:02:56,601 --> 00:02:59,440
+fiindcă e specialitatea
+care îți permite
+
+25
+00:02:59,640 --> 00:03:03,360
+să-l studiezi milimetru cu milimetru
+
+26
+00:03:03,361 --> 00:03:07,280
+și centimetru cu centimetru, prin
+cartografiere cu stimulare corticală.
+
+27
+00:03:08,495 --> 00:03:10,920
+Ca să vadă ce se întâmplă în creier,
+
+28
+00:03:10,921 --> 00:03:14,860
+Mohamad implantează electrozi minusculi
+în craniile pacienților săi.
+
+29
+00:03:16,215 --> 00:03:19,413
+Apoi trimite impulsuri către
+acești electrozi, crescând
+
+30
+00:03:19,414 --> 00:03:23,420
+treptat intensitatea curentului,
+uneori cu rezultate dramatice.
+
+31
+00:03:24,680 --> 00:03:29,180
+De curând a introdus un electrod lângă
+o regiune mică, numită claustrum.
+
+32
+00:03:30,244 --> 00:03:33,680
+Claustrumul e legat în mod unic
+de celelalte părți ale creierului.
+
+33
+00:03:35,415 --> 00:03:38,374
+Când făceam cartografierea,
+am fost surprinși să vedem
+
+34
+00:03:38,375 --> 00:03:42,280
+ce a rezultat din stimularea
+claustrumului.
+
+35
+00:03:42,281 --> 00:03:45,160
+I-am cerut să citească și am văzut
+că stimularea
+
+36
+00:03:45,161 --> 00:03:48,120
+acestui singur electrod,
+aflat în claustrum,
+
+37
+00:03:48,121 --> 00:03:54,160
+a făcut-o să se oprească din citit
+și să nu țină minte nimic din ea.
+
+38
+00:03:54,680 --> 00:03:59,680
+[Pacienta vorbește,
+neinteligibil.]
+
+39
+00:04:02,484 --> 00:04:05,560
+Când Mohamad trimite un impuls
+electric de 14 miliamperi
+
+40
+00:04:05,561 --> 00:04:09,740
+în claustrum, pacienta
+îngheață la mijlocul frazei.
+
+41
+00:04:11,484 --> 00:04:15,320
+Parcă mintea ei conștientă
+a fost pur și simplu stinsă.
+
+42
+00:04:15,321 --> 00:04:19,279
+Cognitiv, e complet afectată.
+
+43
+00:04:19,280 --> 00:04:24,840
+Fără limbaj, fără memorie,
+fără nicio reacție.
+
+44
+00:04:24,990 --> 00:04:28,080
+- [vorbire
+neinteligibilă]
+
+45
+00:04:32,895 --> 00:04:37,160
+- Când curentul scade, reia
+exact de unde rămăsese.
+
+46
+00:04:37,210 --> 00:04:42,160
+- [vorbire
+neinteligibilă]
+
+47
+00:04:42,480 --> 00:04:46,360
+- Descoperirile au convins unii autori
+
+48
+00:04:46,361 --> 00:04:50,680
+să numească claustrumul
+comutatorul pornit-oprit al conștiinței,
+
+49
+00:04:52,160 --> 00:04:56,600
+ceea ce, în cazul acesta,
+e chiar destul de exact.
+
+50
+00:04:58,205 --> 00:05:00,280
+- A fost o descoperire incredibilă,
+
+51
+00:05:01,215 --> 00:05:04,720
+dar e doar unul dintre multele feluri
+în care explorează creierul
+
+52
+00:05:04,721 --> 00:05:08,120
+și duce mai departe tratamentul
+tulburărilor de conștiință.
+
+53
+00:05:09,030 --> 00:05:13,440
+Mohamad a creat și o metodă nouă
+de tratament al epilepsiei severe.
+
+54
+00:05:14,465 --> 00:05:16,280
+Caută voluntari dispuși să accepte
+
+55
+00:05:16,281 --> 00:05:20,100
+stimulatori electrici, implantați
+definitiv în creier.
+
+56
+00:05:21,725 --> 00:05:24,800
+Dar nimic nu garantează că va merge,
+
+57
+00:05:24,801 --> 00:05:29,200
+fiindcă creierul uman e poate
+cel mai complex obiect din univers.
+
+58
+00:05:31,320 --> 00:05:36,280
+Pentru neurocercetătorul Steve Ramirez,
+complexitatea naturii ne spune multe
+
+59
+00:05:36,281 --> 00:05:38,560
+despre mecanismele din interiorul
+creierului uman.
+
+60
+00:05:38,561 --> 00:05:42,680
+- Să apropiem microscopul până
+la o singură moleculă de H2O.
+
+61
+00:05:42,681 --> 00:05:44,248
+Te întrebi ce-ți spune
+o moleculă de H2O
+
+62
+00:05:44,249 --> 00:05:46,840
+despre proprietatea
+de umezeală?
+
+63
+00:05:46,841 --> 00:05:49,400
+Îți spune probabil câte ceva,
+dar nu foarte mult.
+
+64
+00:05:49,401 --> 00:05:53,880
+Când pui laolaltă nenumărate
+miliarde de molecule de H2O,
+
+65
+00:05:53,881 --> 00:05:56,840
+ajungi la ceva care seamănă
+cu niște picături de apă.
+
+66
+00:06:00,600 --> 00:06:03,600
+Iar picăturile acelea de apă,
+când le combini
+
+67
+00:06:03,601 --> 00:06:06,240
+și pui laolaltă nenumărate
+miliarde de picături,
+
+68
+00:06:06,241 --> 00:06:09,240
+ajungi la ceva atât de uimitor
+precum un râu.
+
+69
+00:06:11,090 --> 00:06:14,720
+Gândește-te la moleculele de H2O
+ca la niște neuroni singuri.
+
+70
+00:06:14,721 --> 00:06:18,160
+Un singur neuron îți spune câte ceva,
+dar nu toată povestea.
+
+71
+00:06:18,161 --> 00:06:20,440
+Când începi să combini
+acele celule cerebrale,
+
+72
+00:06:20,441 --> 00:06:24,760
+vreo 80 până la 100 de miliarde,
+care interacționează între ele,
+
+73
+00:06:24,761 --> 00:06:30,200
+apar însușiri noi,
+precum memoria sau conștiința.
+
+74
+00:06:31,240 --> 00:06:36,560
+Aceste fărâme de țesut cerebral,
+80 de miliarde de celule te fac pe tine.
+
+75
+00:06:36,561 --> 00:06:38,320
+Produc tot ce ai simțit vreodată,
+
+76
+00:06:38,321 --> 00:06:40,800
+trăit, iubit, urât, plâns.
+Absolut tot.
+
+77
+00:06:44,770 --> 00:06:46,780
+(clicuri)
+
+78
+00:06:49,850 --> 00:06:51,480
+(zornăit)
+
+79
+00:06:51,481 --> 00:06:55,120
+Steve crede că identitatea noastră
+se construiește pe memorie.
+
+80
+00:06:56,470 --> 00:06:57,960
+(muzică înălțătoare)
+
+81
+00:07:16,240 --> 00:07:18,320
+- Când te gândești la memorie,
+ea e lucrul acela,
+
+82
+00:07:18,321 --> 00:07:21,200
+firul care ne unește
+întreg simțul de a fi.
+
+83
+00:07:21,201 --> 00:07:23,840
+Fără ea rămânem blocați în timp,
+nu-i așa?
+
+84
+00:07:23,841 --> 00:07:25,000
+Și ne pierdem identitatea.
+
+85
+00:07:31,200 --> 00:07:35,720
+- Dar cât de sigură e memoria,
+chiar și într-un creier sănătos?
+
+86
+00:07:37,365 --> 00:07:39,520
+- Credeam că amintirile sunt
+foarte stabile,
+
+87
+00:07:39,521 --> 00:07:42,640
+că formezi o amintire
+și ea nu se mai schimbă.
+
+88
+00:07:42,641 --> 00:07:46,400
+Se fixează pur și simplu în creier
+și rămâne așa pentru totdeauna.
+
+89
+00:07:46,401 --> 00:07:50,560
+Acum știm că, practic,
+atunci când îți amintești ceva,
+
+90
+00:07:50,561 --> 00:07:53,120
+îl actualizezi mereu
+cu informații noi.
+
+91
+00:07:55,455 --> 00:07:58,060
+(muzică vioaie)
+
+92
+00:08:03,500 --> 00:08:07,440
+- De fiecare dată când revezi
+o amintire, ea devine vulnerabilă.
+
+93
+00:08:08,365 --> 00:08:09,600
+Poate fi schimbată.
+
+94
+00:08:11,550 --> 00:08:16,200
+Să zicem că doi oameni, la o întâlnire,
+ajung într-un bar.
+
+95
+00:08:16,201 --> 00:08:17,201
+Lucrurile merg bine.
+
+96
+00:08:18,425 --> 00:08:20,480
+Mai târziu, femeia își amintește scena.
+
+97
+00:08:21,980 --> 00:08:25,780
+Dar, de fiecare dată, mici detalii
+se pot schimba.
+
+98
+00:08:30,830 --> 00:08:33,080
+Cu timpul, detaliile se adună.
+
+99
+00:08:36,630 --> 00:08:38,880
+Și același lucru i se întâmplă
+și partenerului ei.
+
+100
+00:08:39,780 --> 00:08:43,720
+De fiecare dată când revine la amintire,
+ea se schimbă subtil.
+
+101
+00:08:50,735 --> 00:08:53,439
+Până când, în final, el și ea au
+amintiri foarte diferite
+
+102
+00:08:53,440 --> 00:08:56,400
+despre cum arăta barul
+în seara aceea,
+
+103
+00:08:56,401 --> 00:08:59,560
+cum erau îmbrăcați
+sau chiar cum s-au purtat.
+
+104
+00:09:04,039 --> 00:09:07,040
+Schimbările din memorie pot fi
+deosebit de dramatice
+
+105
+00:09:07,040 --> 00:09:11,000
+dacă sentimentele unuia
+față de celălalt s-au schimbat.
+
+106
+00:09:11,001 --> 00:09:13,400
+O amintire bună poate deveni rea.
+
+107
+00:09:20,039 --> 00:09:22,800
+Psihologul Bill Hirst,
+de la New School din New York,
+
+108
+00:09:22,801 --> 00:09:26,360
+a descoperit că memoria
+nu e săpată în piatră.
+
+109
+00:09:26,361 --> 00:09:27,560
+E scrisă în nisip.
+
+110
+00:09:28,880 --> 00:09:33,840
+- Oamenii cred că memoria înseamnă
+stocarea informației.
+
+111
+00:09:33,841 --> 00:09:36,640
+Ca o bibliotecă: depozitezi informația.
+
+112
+00:09:36,641 --> 00:09:39,120
+Și stă acolo, gata să fie recuperată.
+
+113
+00:09:39,121 --> 00:09:41,240
+Dar memoria nu e deloc așa.
+
+114
+00:09:43,240 --> 00:09:47,080
+Practic, construiești amintirea
+din mers.
+
+115
+00:09:50,960 --> 00:09:53,920
+- Dar unele amintiri
+țin de o categorie specială.
+
+116
+00:09:55,180 --> 00:09:58,960
+Amintirile unor evenimente traumatice
+care afectează milioane de oameni.
+
+117
+00:09:58,961 --> 00:10:01,480
+Se numesc amintiri-fulger.
+
+118
+00:10:03,080 --> 00:10:08,080
+- 7 decembrie 1941, o dată
+care va rămâne în infamie.
+
+119
+00:10:11,840 --> 00:10:14,240
+- Cel mai mare eveniment-fulger
+din istoria recentă
+
+120
+00:10:14,241 --> 00:10:17,880
+a fost atacul terorist
+din 11 septembrie 2001.
+
+121
+00:10:19,600 --> 00:10:20,600
+- Doamne, Dumnezeule!
+
+122
+00:10:21,380 --> 00:10:23,440
+- E așa de (bip), nu?!
+
+123
+00:10:25,120 --> 00:10:30,280
+- Ne-a dat o ocazie unică să vedem
+cum se formează și se schimbă amintirile.
+
+124
+00:10:31,320 --> 00:10:34,200
+Psihologii, de fiecare dată
+când se întâmplă ceva îngrozitor
+
+125
+00:10:34,201 --> 00:10:38,400
+în lume, ies în fugă pe stradă
+și intervievează oamenii.
+
+126
+00:10:38,401 --> 00:10:40,720
+- N-am mai văzut așa ceva
+niciodată în viața mea.
+
+127
+00:10:40,721 --> 00:10:45,640
+- Așa că, la 11 septembrie,
+eu și alți câțiva psihologi
+
+128
+00:10:45,641 --> 00:10:48,800
+din toată America
+am ieșit pe străzi
+
+129
+00:10:48,801 --> 00:10:54,040
+și i-am întrebat unde erau când
+au aflat de atacul din 11 septembrie.
+
+130
+00:10:54,041 --> 00:10:56,276
+Și apoi i-am urmărit
+după un an,
+
+131
+00:10:56,277 --> 00:10:59,120
+după trei ani
+și după 10 ani.
+
+132
+00:10:59,121 --> 00:11:01,400
+- Când e vorba de amintiri-fulger,
+
+133
+00:11:01,401 --> 00:11:05,280
+toți țin minte faptele de bază
+ale evenimentului traumatic,
+
+134
+00:11:05,281 --> 00:11:09,480
+dar amintirile despre faptele lor
+și despre sentimente se estompează.
+
+135
+00:11:09,481 --> 00:11:11,005
+- Întreabă un american:
+„Îți vei aminti
+
+136
+00:11:11,006 --> 00:11:15,120
+unde erai când ai aflat
+de 11 septembrie?”
+
+137
+00:11:15,121 --> 00:11:17,720
+Aproape toți vor zice: absolut.
+
+138
+00:11:17,721 --> 00:11:20,480
+Numai că, de fapt, nu-și vor aminti.
+
+139
+00:11:20,481 --> 00:11:23,404
+- Ca să arătăm fenomenul,
+am adunat actori
+
+140
+00:11:23,405 --> 00:11:26,880
+să citească transcrieri reprezentative
+din studiul despre 11 septembrie.
+
+141
+00:11:30,449 --> 00:11:33,400
+- Eram în apartamentul meu din Brooklyn.
+
+142
+00:11:34,299 --> 00:11:36,760
+N-am văzut primul avion când a lovit,
+dar l-am auzit.
+
+143
+00:11:37,209 --> 00:11:40,120
+- Un an mai târziu, povestea s-a schimbat.
+
+144
+00:11:40,121 --> 00:11:41,800
+- Eram pe stradă.
+
+145
+00:11:42,799 --> 00:11:45,440
+Am auzit un zgomot puternic, o explozie.
+
+146
+00:11:47,339 --> 00:11:51,760
+- Constatăm că acuratețea
+scade dramatic în primii ani.
+
+147
+00:11:51,761 --> 00:11:55,480
+Dacă compari ce au spus
+la o zi după,
+
+148
+00:11:55,481 --> 00:11:57,471
+la două zile, cu ce au spus
+după un an,
+
+149
+00:11:57,472 --> 00:12:02,040
+rata de acuratețe e,
+cred, cam 61%.
+
+150
+00:12:02,041 --> 00:12:04,200
+Așadar, se uită foarte mult.
+
+151
+00:12:04,201 --> 00:12:06,040
+- Eram pe stradă.
+
+152
+00:12:06,041 --> 00:12:09,592
+- Cred sută la sută că amintirea asta,
+care în 40% din cazuri
+
+153
+00:12:09,593 --> 00:12:13,600
+e greșită, e absolut
+și categoric corectă.
+
+154
+00:12:13,601 --> 00:12:15,440
+- Eram la școală, în clasă.
+
+155
+00:12:15,441 --> 00:12:16,640
+Eram în bibliotecă.
+
+156
+00:12:16,641 --> 00:12:21,320
+- Iar odată ce persiști într-o eroare,
+ea devine amintirea ta, corectă sau nu.
+
+157
+00:12:21,321 --> 00:12:24,480
+- Întâi l-am sunat pe iubitul meu,
+dar n-am putut să dau de el.
+
+158
+00:12:24,481 --> 00:12:29,520
+Știu că întâi am încercat părinții,
+deci n-am prins legătura la telefon.
+
+159
+00:12:29,521 --> 00:12:34,640
+- La detalii concrete, oamenii
+greșesc cam în 40% din cazuri.
+
+160
+00:12:35,445 --> 00:12:40,840
+Dar când își amintesc emoțiile,
+greșesc în 60% din cazuri.
+
+161
+00:12:41,925 --> 00:12:45,360
+- Iar greșelile făcute tindeau
+să reflecte starea lor de atunci.
+
+162
+00:12:45,361 --> 00:12:50,440
+Cei cu o stare emoțională destul
+de stabilă de-a lungul celor 10 ani
+
+163
+00:12:50,441 --> 00:12:53,960
+au avut amintiri destul de exacte
+pe parcursul acelor 10 ani.
+
+164
+00:12:54,835 --> 00:12:57,160
+Mi-era frică: ce o să se întâmple?
+
+165
+00:12:57,161 --> 00:13:02,400
+Întâi, la 65 de kilometri de casă,
+traversez orașul ca să ajung acasă.
+
+166
+00:13:02,401 --> 00:13:05,120
+Eram supărat.
+
+167
+00:13:05,121 --> 00:13:06,960
+La primul avion eram destul de calm.
+
+168
+00:13:06,961 --> 00:13:09,280
+Când a lovit și al doilea,
+am știut că e un atac.
+
+169
+00:13:09,281 --> 00:13:10,240
+Eram cam îngrijorat.
+
+170
+00:13:10,241 --> 00:13:13,760
+- Starea ta emoțională de acum
+schimbă felul în care îți amintești,
+
+171
+00:13:13,761 --> 00:13:17,160
+mai ales felul în care îți amintești
+emoțiile de atunci.
+
+172
+00:13:18,115 --> 00:13:23,520
+Dar, uneori, traumele emoționale
+prin care trecem sunt atât de intense.
+
+173
+00:13:23,521 --> 00:13:25,120
+Nu poți scăpa niciodată de ele.
+
+174
+00:13:31,765 --> 00:13:37,200
+Evenimentele-fulger rănesc milioane,
+dar unora le lasă cicatrici psihice
+
+175
+00:13:37,201 --> 00:13:41,400
+care țin toată viața și duc
+la stres posttraumatic.
+
+176
+00:13:44,485 --> 00:13:48,000
+Femeia aceasta a văzut cu ochii ei
+atacurile din 11 septembrie.
+
+177
+00:13:49,480 --> 00:13:51,160
+- Îmi amintesc clar că m-am dus
+
+178
+00:13:51,161 --> 00:13:54,880
+într-o sală de ședințe,
+să mă pregătesc de întâlnire.
+
+179
+00:13:56,020 --> 00:13:58,404
+Și, prin geam, din colțul
+locului unde eram
+
+180
+00:13:58,405 --> 00:14:01,040
+atunci: pe Green Street,
+la numărul 95.
+
+181
+00:14:01,815 --> 00:14:05,360
+Din colțul acela am văzut al doilea avion.
+
+182
+00:14:05,361 --> 00:14:08,648
+Era atât de aproape de biroul nostru,
+de fereastra noastră,
+
+183
+00:14:08,649 --> 00:14:14,000
+încât mi s-a părut că văd
+oameni înăuntru.
+
+184
+00:14:14,001 --> 00:14:18,440
+Și, urmărindu-l, a intrat drept
+în Turnul de Sud.
+
+185
+00:14:18,441 --> 00:14:19,720
+Și am cedat.
+
+186
+00:14:20,680 --> 00:14:24,640
+Încă nu pot vorbi cu nimeni despre asta,
+cel puțin nu de bunăvoie.
+
+187
+00:14:27,360 --> 00:14:32,360
+Și nu cred că sentimentele mele
+s-au schimbat.
+
+188
+00:14:34,200 --> 00:14:37,720
+- Traumele le schimbă
+oamenilor viețile.
+
+189
+00:14:37,721 --> 00:14:40,560
+Fără niciun avertisment, durerea
+traumei dintâi
+
+190
+00:14:40,561 --> 00:14:44,120
+poate reveni năvalnic,
+cu efecte devastatoare.
+
+191
+00:14:50,135 --> 00:14:53,120
+- Dacă am putea separa durerea
+de amintirile acelea?
+
+192
+00:14:54,620 --> 00:14:59,960
+Munca lui Ramirez, de la MIT,
+poate alina suferința
+
+193
+00:15:01,005 --> 00:15:03,680
+milioanelor cu PTSD, sau duce
+spre o lume în care nimeni
+
+194
+00:15:03,829 --> 00:15:05,040
+nu mai știe ce e real.
+
+195
+00:15:07,560 --> 00:15:09,880
+Munca aceasta se face în laboratorul
+
+196
+00:15:09,881 --> 00:15:13,320
+biologului laureat cu Nobel,
+Susumu Tonegawa.
+
+197
+00:15:14,985 --> 00:15:17,640
+- Cercetarea pe care o fac
+are două direcții.
+
+198
+00:15:17,641 --> 00:15:19,960
+Să aflu care sunt
+cărămizile de bază
+
+199
+00:15:19,961 --> 00:15:22,240
+ale amintirilor și dacă putem
+deturna sistemul acesta
+
+200
+00:15:22,241 --> 00:15:26,080
+ca să-i dăm, de fapt,
+o valoare terapeutică.
+
+201
+00:15:26,081 --> 00:15:27,955
+Închipuie-ți că am folosi
+memoria,
+
+202
+00:15:27,979 --> 00:15:31,520
+de pildă, ca pe o armă împotriva
+anumitor tulburări psihice.
+
+203
+00:15:32,960 --> 00:15:36,255
+- Studiind creierele rozătoarelor,
+laboratorul lui Tonegawa a făcut
+
+204
+00:15:36,256 --> 00:15:39,560
+descoperiri majore despre
+funcționarea hipocampului.
+
+205
+00:15:40,390 --> 00:15:46,360
+Hipocampul trece informația
+din memoria scurtă în cea de lungă durată.
+
+206
+00:15:46,361 --> 00:15:50,400
+E dintre primele zone ale creierului
+afectate de boala Alzheimer.
+
+207
+00:15:51,400 --> 00:15:55,165
+Faptele unei amintiri par
+stocate aici, dar
+
+208
+00:15:55,190 --> 00:15:58,800
+părțile emoționale ale memoriei
+sunt risipite prin tot creierul.
+
+209
+00:16:00,680 --> 00:16:02,480
+Asta l-a pus pe Steve pe gânduri.
+
+210
+00:16:02,481 --> 00:16:06,200
+Dacă ar modifica celulele care păstrează
+memoria emoțională,
+
+211
+00:16:06,201 --> 00:16:09,680
+ar putea preface o amintire fericită
+într-una tristă?
+
+212
+00:16:09,681 --> 00:16:11,440
+Sau invers?
+
+213
+00:16:11,441 --> 00:16:15,880
+Cu o unealtă nouă, optogenetica,
+s-a apucat să facă exact asta.
+
+214
+00:16:17,135 --> 00:16:20,006
+Putem intra acum în creier
+și să-l modulăm la vitezele
+
+215
+00:16:20,007 --> 00:16:22,600
+la care comunică el,
+la nivel de milisecundă.
+
+216
+00:16:22,749 --> 00:16:27,240
+E uimitor, fiindcă putem intra
+și desface creierul în timp real.
+
+217
+00:16:27,241 --> 00:16:29,880
+Avem privilegiul
+să trăim, de fapt,
+
+218
+00:16:29,881 --> 00:16:33,280
+o revoluție foarte reală
+în neuroștiințe, chiar acum.
+
+219
+00:16:33,281 --> 00:16:38,240
+- Optogenetica îmbină ingineria genetică
+și tehnologia laser.
+
+220
+00:16:38,241 --> 00:16:41,760
+Rozătoarea aceasta a fost modificată
+genetic, cu ADN de la alge.
+
+221
+00:16:42,639 --> 00:16:44,600
+Neuronii ei sunt sensibili la lumină.
+
+222
+00:16:45,560 --> 00:16:48,280
+Apoi se implantează fibre optice
+
+223
+00:16:48,281 --> 00:16:50,960
+în zonele creierului
+care țin o amintire.
+
+224
+00:16:52,160 --> 00:16:54,040
+- După ce terminăm
+operația aceea pe creier,
+
+225
+00:16:54,040 --> 00:16:56,880
+avem animale cu fibre optice
+în creier,
+
+226
+00:16:56,881 --> 00:17:00,680
+care pot trimite lumină spre celulele
+sensibile la lumină.
+
+227
+00:17:00,681 --> 00:17:03,402
+Celulele astea au comutatorul
+sensibil la lumină,
+
+228
+00:17:03,403 --> 00:17:05,960
+cu care putem aprinde
+sau stinge o amintire.
+
+229
+00:17:09,319 --> 00:17:12,200
+- MIT nu ne-a lăsat să filmăm
+experimentul lui Steve.
+
+230
+00:17:14,999 --> 00:17:18,560
+Așa că iată prima lui descoperire,
+refăcută în pixeli.
+
+231
+00:17:19,574 --> 00:17:22,359
+O rozătoare e pusă într-o incintă
+cu pereți roșii.
+
+232
+00:17:23,240 --> 00:17:25,079
+Primește un șoc slab la labe.
+
+233
+00:17:26,109 --> 00:17:28,880
+Și își formează amintirea
+că incinta e periculoasă.
+
+234
+00:17:29,680 --> 00:17:32,960
+Când Steve pune animalul
+într-o cameră albastră,
+
+235
+00:17:32,961 --> 00:17:38,680
+explorează liniștit, până când Steve
+activează neuronii fricii.
+
+236
+00:17:38,681 --> 00:17:41,000
+Rozătoarea îngheață pe loc.
+
+237
+00:17:41,001 --> 00:17:43,600
+- Am putut reactiva artificial
+amintirea aceea
+
+238
+00:17:43,601 --> 00:17:46,280
+și introduce informație de frică
+în ea,
+
+239
+00:17:46,281 --> 00:17:50,080
+astfel că, puse înapoi în cutie,
+animalele au arătat teamă.
+
+240
+00:17:51,039 --> 00:17:54,880
+- De Crăciun, în 2014, Steve
+a implantat o amintire falsă.
+
+241
+00:17:55,544 --> 00:18:00,160
+Alt animal a fost pus
+în camera roșie, fără șoc.
+
+242
+00:18:00,161 --> 00:18:03,160
+A doua zi a fost pus
+în camera albastră.
+
+243
+00:18:03,161 --> 00:18:08,440
+În timp ce-i dădea un șoc ușor,
+Steve i-a activat amintirea camerei roșii.
+
+244
+00:18:08,441 --> 00:18:13,440
+A doua zi, animalul a fost pus înapoi
+în camera roșie, liniștită, fără șoc.
+
+245
+00:18:14,215 --> 00:18:15,640
+Și a înghețat de frică.
+
+246
+00:18:16,750 --> 00:18:18,680
+Se formase o amintire falsă.
+
+247
+00:18:20,305 --> 00:18:23,880
+- Am putut activa amintirea aceasta
+și să o readucem la viață.
+
+248
+00:18:23,881 --> 00:18:26,791
+Apoi i-am introdus artificial
+informație negativă,
+
+249
+00:18:26,792 --> 00:18:29,080
+ca să-i schimbăm
+conținutul.
+
+250
+00:18:29,081 --> 00:18:32,440
+Am avut senzația aceea:
+nu-mi vine să cred că a mers.
+
+251
+00:18:35,669 --> 00:18:38,428
+- De atunci, Steve a reușit
+să inverseze efectul,
+
+252
+00:18:38,429 --> 00:18:41,320
+să preschimbe amintirile nefericite
+în unele fericite.
+
+253
+00:18:42,679 --> 00:18:44,840
+Dar există probleme etice evidente
+
+254
+00:18:44,841 --> 00:18:48,360
+când modifici amintiri
+sau implantezi altele, artificiale.
+
+255
+00:18:49,364 --> 00:18:54,040
+Asta ar putea duce, în principiu,
+la o spălare a creierului de tip nou.
+
+256
+00:18:54,041 --> 00:18:57,360
+Până la urmă, ne-ar face să ne îndoim
+de tot ce credem că e adevărat.
+
+257
+00:18:58,360 --> 00:19:00,800
+- Dacă manipularea memoriei ar ajunge
+vreodată la oameni,
+
+258
+00:19:00,801 --> 00:19:04,120
+n-o dai întregii populații
+din Massachusetts,
+
+259
+00:19:04,121 --> 00:19:06,840
+o dai populației relevante clinic,
+celor care chiar au nevoie:
+
+260
+00:19:06,841 --> 00:19:09,720
+veteranului de război,
+victimei unei agresiuni,
+
+261
+00:19:09,721 --> 00:19:14,240
+omului măcinat de stres posttraumatic,
+de anxietate sau de depresie.
+
+262
+00:19:16,499 --> 00:19:21,080
+- Optogenetica e un pas major
+în tehnologia de cercetare.
+
+263
+00:19:21,081 --> 00:19:23,480
+Deocamdată se folosește doar la animale.
+
+264
+00:19:25,000 --> 00:19:27,440
+Oare putem fi siguri că, modificând
+
+265
+00:19:27,441 --> 00:19:32,320
+circuitele minții, asta nu ne schimbă
+drastic identitatea și purtarea?
+
+266
+00:19:42,069 --> 00:19:43,600
+(muzică dramatică)
+
+267
+00:19:43,601 --> 00:19:46,240
+- Creierul e un instrument de precizie.
+
+268
+00:19:46,241 --> 00:19:48,754
+În afara câmpului conștient,
+bucăți mici de carne
+
+269
+00:19:48,755 --> 00:19:51,320
+controlează o gamă largă
+de funcții.
+
+270
+00:19:53,560 --> 00:19:55,960
+Dar până la imagistica creierului,
+
+271
+00:19:55,961 --> 00:19:59,080
+știam foarte puțin despre cum
+se poartă bucățile acelea de carne.
+
+272
+00:20:00,675 --> 00:20:04,120
+RMN, imagistică prin rezonanță magnetică,
+
+273
+00:20:04,121 --> 00:20:07,200
+ne lasă să vedem creierul la lucru,
+în timp real.
+
+274
+00:20:11,209 --> 00:20:12,700
+(muzică dramatică)
+
+275
+00:20:14,870 --> 00:20:19,120
+Deși mulți au făcut un RMN,
+puțini știu cum funcționează.
+
+276
+00:20:19,121 --> 00:20:23,100
+Totul ține de excitație:
+excitarea nucleelor atomice.
+
+277
+00:20:28,340 --> 00:20:31,200
+Vopseaua are sulfură de zinc luminoasă.
+
+278
+00:20:32,294 --> 00:20:34,600
+Atomii de zinc absorb energia luminii.
+
+279
+00:20:35,684 --> 00:20:39,680
+Când se sting luminile,
+atomii eliberează energia.
+
+280
+00:20:40,284 --> 00:20:42,040
+Și așa devin fosforescenți.
+
+281
+00:20:44,814 --> 00:20:47,520
+La fel, când moleculele de apă
+din corpul tău
+
+282
+00:20:47,521 --> 00:20:51,160
+sunt lovite de un câmp magnetic tare,
+emit unde radio.
+
+283
+00:20:52,409 --> 00:20:54,840
+Semnalele acelea pot fi detectate
+
+284
+00:20:54,841 --> 00:20:57,520
+și folosite ca să creăm
+hărți ale interiorului tău.
+
+285
+00:20:59,374 --> 00:21:02,960
+Exact asta a făcut fizicianul
+și medicul John Schenck
+
+286
+00:21:02,961 --> 00:21:06,640
+în anii 1980, când a dus RMN-ul
+la un nivel cu totul nou.
+
+287
+00:21:07,524 --> 00:21:09,320
+Cartografierea precisă a creierului.
+
+288
+00:21:09,934 --> 00:21:12,640
+Echipa lui a creat prima imagine
+a unui creier uman
+
+289
+00:21:12,641 --> 00:21:16,960
+într-un câmp magnetic de patru ori
+mai puternic decât până atunci.
+
+290
+00:21:17,894 --> 00:21:21,560
+Nimeni nu știa dacă aparatul
+e sigur pentru oameni.
+
+291
+00:21:21,561 --> 00:21:23,520
+Așa că John a intrat el însuși înăuntru.
+
+292
+00:21:24,405 --> 00:21:28,080
+- A fost un risc mare
+și un pas important înainte.
+
+293
+00:21:28,081 --> 00:21:30,720
+Eu eram în magnet și eu eram
+persoana scanată,
+
+294
+00:21:30,721 --> 00:21:33,120
+iar un coleg
+opera scanerul,
+
+295
+00:21:33,121 --> 00:21:37,160
+și, în sfârșit, în toiul nopții,
+am obținut prima noastră imagine.
+
+296
+00:21:39,000 --> 00:21:42,640
+- Am realizat că asta avea să schimbe
+profund întreg domeniul.
+
+297
+00:21:44,044 --> 00:21:49,000
+- Azi, aproape fiecare spital
+din lumea dezvoltată are un RMN.
+
+298
+00:21:49,001 --> 00:21:53,480
+Iar faptul că putem vedea în creier
+a pornit o revoluție în neuroștiințe.
+
+299
+00:21:55,324 --> 00:22:00,600
+John și-a scanat creierul aproape
+în fiecare an, din 1983.
+
+300
+00:22:00,601 --> 00:22:04,040
+Iar RMN-ul a devenit mult mai puternic
+în anii aceștia.
+
+301
+00:22:05,265 --> 00:22:07,320
+- Acesta e creierul meu.
+
+302
+00:22:07,321 --> 00:22:12,400
+Am 75 de ani și sunt
+destul de mulțumit de cum arată.
+
+303
+00:22:12,401 --> 00:22:15,480
+Dar se văd schimbări
+față de tinerețe.
+
+304
+00:22:15,481 --> 00:22:20,040
+Ventriculii din partea centrală
+a creierului sunt acum mai mari.
+
+305
+00:22:20,041 --> 00:22:22,680
+Asta li se întâmplă aproape tuturor.
+
+306
+00:22:22,904 --> 00:22:27,484
+dar, per total, date fiind vârsta
+și celelalte, apoi
+
+307
+00:22:27,485 --> 00:22:30,960
+uzura anilor,
+arată încă destul de bine.
+
+308
+00:22:32,160 --> 00:22:34,740
+(muzică vioaie)
+
+309
+00:22:38,444 --> 00:22:42,520
+- Azi, John și colegii lui de la GE
+testează un procedeu nou,
+
+310
+00:22:42,521 --> 00:22:47,200
+care arată depunerile de fier
+din creier mai bine ca oricând.
+
+311
+00:22:47,201 --> 00:22:50,480
+Așa pot studia o regiune minusculă,
+numită habenula,
+
+312
+00:22:50,481 --> 00:22:53,480
+care ar putea fi legată
+de depresia gravă.
+
+313
+00:22:54,559 --> 00:22:58,360
+- Habenula stă foarte, foarte adânc,
+în centrul creierului,
+
+314
+00:22:58,361 --> 00:23:00,760
+și, de fapt, mă surprinde
+că o putem vedea
+
+315
+00:23:00,909 --> 00:23:03,400
+atât de bine cu tehnica aceasta.
+
+316
+00:23:03,401 --> 00:23:07,800
+- Fierul din habenula ne dă
+o imagine mai precisă,
+
+317
+00:23:07,801 --> 00:23:11,240
+care poate descrie chiar
+cum lucrează habenula
+
+318
+00:23:11,241 --> 00:23:14,440
+și ne poate da indicii
+despre apariția
+
+319
+00:23:14,441 --> 00:23:16,920
+și tratamentul potrivit
+al depresiei.
+
+320
+00:23:17,800 --> 00:23:22,720
+- Creierul uman e făcut din multe
+astfel de ghemuri mici, dar vitale.
+
+321
+00:23:22,721 --> 00:23:26,480
+Ele nasc rețelele neurale complexe
+care ne conduc comportamentul.
+
+322
+00:23:29,735 --> 00:23:32,120
+Conectând creierul cu electrozi,
+
+323
+00:23:32,121 --> 00:23:35,840
+Mohamad Koubeissi poate vedea
+rețelele acelea în acțiune.
+
+324
+00:23:35,841 --> 00:23:38,880
+Acestea sunt tiparele electrice
+care alcătuiesc o minte umană.
+
+325
+00:23:40,174 --> 00:23:45,440
+- EEG-ul înregistrează, în timp real,
+activitatea electrică a creierului.
+
+326
+00:23:45,441 --> 00:23:48,000
+Traseele pe care le vedem,
+suprapuse unele peste altele,
+
+327
+00:23:48,001 --> 00:23:50,992
+fiecare corespunde
+activității electrice
+
+328
+00:23:50,993 --> 00:23:53,800
+dintre două puncte diferite
+de pe scalp.
+
+329
+00:23:54,734 --> 00:23:57,779
+Observați ritmicitatea aceasta,
+undele foarte neregulate,
+
+330
+00:23:57,780 --> 00:24:01,040
+care cresc în frecvență
+și în voltaj.
+
+331
+00:24:02,360 --> 00:24:05,352
+- Într-o criză epileptică,
+părți din creier
+
+332
+00:24:05,353 --> 00:24:08,200
+se blochează într-o buclă
+și conștiința se stinge.
+
+333
+00:24:09,069 --> 00:24:15,080
+- Foarte mulți neuroni încep să descarce
+sincron, într-un fel anormal.
+
+334
+00:24:15,081 --> 00:24:19,360
+În loc ca fiecare celulă să-și vadă
+de treaba ei, normal,
+
+335
+00:24:19,360 --> 00:24:24,320
+multe fac un fel de dans de grup,
+care strică funcția normală.
+
+336
+00:24:31,084 --> 00:24:35,370
+- E ca și cum, într-un oraș, ai cere
+la jumătate din oameni
+
+337
+00:24:35,371 --> 00:24:37,760
+să facă același lucru,
+în același timp.
+
+338
+00:24:37,761 --> 00:24:41,760
+Orașul se blochează: tâmplarul
+nu mai e tâmplar,
+
+339
+00:24:41,760 --> 00:24:43,784
+scriitorul nu mai e scriitor,
+iar doctorul nu mai e
+
+340
+00:24:43,785 --> 00:24:46,640
+doctor, căci toți fac
+același lucru.
+
+341
+00:24:46,641 --> 00:24:51,120
+E o analogie pentru ceea ce
+se întâmplă în timpul unei crize.
+
+342
+00:24:51,120 --> 00:24:56,920
+- Când criza pune stăpânire pe om,
+conștiința cade, dar corpul merge.
+
+343
+00:24:56,920 --> 00:25:02,960
+Practic devii un robot, mânat
+de nenumărate procese subconștiente.
+
+344
+00:25:02,960 --> 00:25:06,480
+Dar noi conducem rețelele acelea
+subconștiente?
+
+345
+00:25:06,481 --> 00:25:07,960
+Sau ele ne conduc pe noi?
+
+346
+00:25:17,120 --> 00:25:21,520
+Neurocercetătorul John-Dylan Haynes
+face o cercetare controversată,
+
+347
+00:25:21,521 --> 00:25:26,760
+care arată cât de puțin controlăm
+conștient deciziile pe care le luăm.
+
+348
+00:25:27,375 --> 00:25:29,963
+- Conștientul poate urmări
+doar o parte mică
+
+349
+00:25:29,964 --> 00:25:32,920
+din stimulii
+care ne înconjoară,
+
+350
+00:25:33,119 --> 00:25:34,480
+care ne ajung prin simțuri.
+
+351
+00:25:36,549 --> 00:25:40,040
+- Cât timp mintea conștientă e atentă
+la o parte a lumii,
+
+352
+00:25:40,041 --> 00:25:42,400
+alte părți ale creierului
+lucrează în fundal.
+
+353
+00:25:44,320 --> 00:25:48,920
+- De pildă, pe o stradă aglomerată,
+când trebuie să evităm mașinile
+
+354
+00:25:48,921 --> 00:25:52,240
+sau oamenii, sau obstacolele,
+multe se petrec de la sine.
+
+355
+00:25:52,241 --> 00:25:55,240
+Nu trebuie să ne gândim la ele.
+
+356
+00:25:55,241 --> 00:25:59,960
+Rutinele acestea inconștiente preiau
+mult din treburile de zi cu zi.
+
+357
+00:26:01,854 --> 00:26:03,600
+Într-un fel, conștiința poate fi văzută
+
+358
+00:26:03,601 --> 00:26:06,240
+ca vârful icebergului
+proceselor noastre mentale.
+
+359
+00:26:11,960 --> 00:26:15,080
+- Dar dacă inconștientul ne ghidează
+cea mai mare parte din fapte,
+
+360
+00:26:15,081 --> 00:26:17,640
+asta pune sub semnul întrebării
+credința adâncă că suntem
+
+361
+00:26:17,641 --> 00:26:20,080
+cu toții liberi să ne alegem
+destinul.
+
+362
+00:26:21,470 --> 00:26:22,520
+Dacă nu suntem?
+
+363
+00:26:23,760 --> 00:26:27,480
+- Acum câțiva ani, John a făcut
+experimente cu RMN,
+
+364
+00:26:27,481 --> 00:26:30,240
+ca să urmărească creierul
+când oamenii iau decizii.
+
+365
+00:26:32,559 --> 00:26:35,760
+A văzut că oamenii iau decizii
+fără să-și dea seama,
+
+366
+00:26:35,761 --> 00:26:39,600
+cu până la șapte secunde înainte
+ca mintea conștientă să apară.
+
+367
+00:26:41,080 --> 00:26:43,240
+Mintea conștientă își ia, de fapt, meritul
+
+368
+00:26:43,241 --> 00:26:46,040
+pentru decizii pe care restul
+creierului le luase deja.
+
+369
+00:26:47,320 --> 00:26:49,160
+- Se vede schematic, aici.
+
+370
+00:26:49,161 --> 00:26:53,840
+Aceasta e axa timpului, iar aici
+ei cred că se hotărăsc,
+
+371
+00:26:53,841 --> 00:26:56,520
+iar asta e informația pe care o avem
+despre decizia care urmează.
+
+372
+00:26:56,521 --> 00:27:00,840
+Începe cu câteva secunde înainte
+să creadă că se decid.
+
+373
+00:27:03,800 --> 00:27:06,167
+- John nu spune că lucrul acesta
+se aplică deciziilor complexe,
+
+374
+00:27:06,168 --> 00:27:08,960
+cum ar fi dacă să cumperi
+sau nu o casă,
+
+375
+00:27:08,961 --> 00:27:12,280
+dar, de cele mai multe ori,
+părem pe pilot automat.
+
+376
+00:27:14,260 --> 00:27:18,320
+Poate mintea conștientă să revină
+la volan, când trebuie?
+
+377
+00:27:20,040 --> 00:27:22,520
+- Sau e doar o poveste
+pe care și-o spune creierul?
+
+378
+00:27:23,680 --> 00:27:25,400
+John a vrut să afle.
+
+379
+00:27:26,320 --> 00:27:28,760
+- În experimentele dinainte am văzut
+că se poate
+
+380
+00:27:28,761 --> 00:27:32,160
+prezice decizia unui om
+cu câteva secunde înainte
+
+381
+00:27:32,161 --> 00:27:34,840
+ca el să creadă
+că se hotărăște.
+
+382
+00:27:34,841 --> 00:27:40,680
+O explicație ar fi că asta
+seamănă cu un șir de pietre de domino.
+
+383
+00:27:40,681 --> 00:27:43,160
+Răstorni prima
+și trec câteva secunde
+
+384
+00:27:43,161 --> 00:27:46,080
+până cade și ultima,
+cea care aduce decizia.
+
+385
+00:27:51,040 --> 00:27:53,440
+Întrebarea, aici, este
+dacă lanțul acesta
+
+386
+00:27:53,441 --> 00:27:57,400
+e unul obligatoriu,
+în afara controlului omului,
+
+387
+00:27:57,401 --> 00:27:59,920
+sau dacă omul
+poate interveni în lanț,
+
+388
+00:27:59,921 --> 00:28:02,520
+de pildă scoțând
+ultima piatră de domino
+
+389
+00:28:02,521 --> 00:28:05,520
+din șirul cel lung
+și oprind decizia.
+
+390
+00:28:15,520 --> 00:28:19,200
+În experimentul acesta înregistrăm
+activitatea cerebrală prin EEG.
+
+391
+00:28:20,974 --> 00:28:24,920
+Oamenii sunt puși într-o situație
+pe care o numim joc dublu.
+
+392
+00:28:24,921 --> 00:28:28,440
+Persoana vede o lumină verde
+pe ecranul calculatorului,
+
+393
+00:28:28,441 --> 00:28:31,480
+iar sarcina e să apese
+un buton cu piciorul.
+
+394
+00:28:32,480 --> 00:28:34,360
+Dacă apasă butonul cu piciorul
+
+395
+00:28:34,361 --> 00:28:37,680
+cât lumina e verde,
+câștigă un punct,
+
+396
+00:28:38,524 --> 00:28:44,080
+iar dacă apasă cu piciorul
+când lumina e roșie, pierde un punct.
+
+397
+00:28:44,870 --> 00:28:48,505
+Pare foarte ușor,
+fiindcă tot ce ai de făcut
+
+398
+00:28:48,506 --> 00:28:51,040
+e să apeși butonul cu piciorul
+când lumina e verde.
+
+399
+00:28:51,041 --> 00:28:54,800
+Dar, pe ascuns, le măsurăm
+activitatea din creier
+
+400
+00:28:55,149 --> 00:28:58,920
+și, cum vedem că persoana
+pregătește mișcarea,
+
+401
+00:28:59,119 --> 00:29:02,000
+facem lumina roșie și pierd puncte.
+
+402
+00:29:03,319 --> 00:29:07,000
+John nu credea că hotărârea
+poate fi întreruptă,
+
+403
+00:29:07,924 --> 00:29:11,200
+dar a aflat, surprins,
+că se înșela.
+
+404
+00:29:11,774 --> 00:29:13,480
+Iar experimentul arată că
+
+405
+00:29:13,529 --> 00:29:18,440
+oamenii pot anula mișcările
+până foarte, foarte târziu.
+
+406
+00:29:18,441 --> 00:29:21,388
+Așadar, în cele șapte secunde
+găsite în experimentele
+
+407
+00:29:21,389 --> 00:29:24,240
+anterioare, în care creierul
+prezice decizia,
+
+408
+00:29:24,241 --> 00:29:28,320
+oamenii încă pot da înapoi
+până foarte, foarte târziu.
+
+409
+00:29:35,624 --> 00:29:39,760
+Se pare că nivelul conștient
+poate interveni când vrea.
+
+410
+00:29:41,080 --> 00:29:45,320
+Cred că mintea conștientă și cea
+inconștientă sunt complementare.
+
+411
+00:29:45,321 --> 00:29:47,320
+Se ajută una pe alta.
+
+412
+00:29:47,321 --> 00:29:51,960
+Fiindcă deciziile inconștiente
+sunt modelate și de gânduri conștiente.
+
+413
+00:29:51,961 --> 00:29:55,160
+Dacă, de pildă, decizi
+să te lași de fumat,
+
+414
+00:29:55,161 --> 00:29:58,840
+poți, în mod conștient și deliberat,
+încerca să te reprogramezi,
+
+415
+00:29:58,841 --> 00:30:02,080
+ca apoi să nu mai iei
+deciziile acelea proaste, pe nesimțite.
+
+416
+00:30:02,081 --> 00:30:04,760
+Cred că merg, într-un fel, mână în mână,
+
+417
+00:30:04,760 --> 00:30:07,680
+iar voința conștientă are și ea
+o influență asupra inconștientului.
+
+418
+00:30:09,569 --> 00:30:12,920
+Dar, la cei cu boli ale creierului,
+precum epilepsia,
+
+419
+00:30:12,920 --> 00:30:16,480
+mintea conștientă se stinge adesea
+de tot,
+
+420
+00:30:16,481 --> 00:30:20,080
+când creierul se închide
+într-un ciclu care se repetă.
+
+421
+00:30:20,081 --> 00:30:25,160
+În cazurile grave, crizele acestea
+vatămă memoria și frâng personalitatea.
+
+422
+00:30:28,734 --> 00:30:32,160
+Am probleme cu memoria.
+
+423
+00:30:32,161 --> 00:30:37,760
+Eu, soția și familia
+aveam altădată multe clipe frumoase.
+
+424
+00:30:40,204 --> 00:30:49,720
+Acum, când copiii sau soția povestesc
+despre una dintre ele,
+
+425
+00:30:49,721 --> 00:30:52,520
+spun sincer că nu-mi amintesc
+nimic.
+
+426
+00:30:54,080 --> 00:30:59,280
+Acum zece ani, Yakov Krug, avocat
+în Baltimore, a făcut meningită.
+
+427
+00:31:00,774 --> 00:31:04,240
+S-a vindecat, dar i-a rămas
+o epilepsie gravă.
+
+428
+00:31:05,130 --> 00:31:07,280
+Nu mai poate să lucreze.
+
+429
+00:31:07,281 --> 00:31:11,040
+Crizele, fără oprire,
+îi șterg personalitatea.
+
+430
+00:31:11,041 --> 00:31:15,160
+Soția lui, Esther, care e medic,
+și cei cinci copii
+
+431
+00:31:15,161 --> 00:31:19,040
+fac tot ce pot, dar el
+se îndepărtează încet.
+
+432
+00:31:19,064 --> 00:31:23,520
+Ori de câte ori vine criza,
+ea lovește circuitele
+
+433
+00:31:23,521 --> 00:31:29,520
+din creier care răspund de memorie
+și de echilibrul emoțional.
+
+434
+00:31:29,521 --> 00:31:31,000
+- Bună. - Ce-i aici?
+
+435
+00:31:31,001 --> 00:31:33,360
+- A, ți-o amintești pe asta? - Da.
+
+436
+00:31:33,361 --> 00:31:36,120
+- Ți-o amintești pe asta? - Da.
+
+437
+00:31:36,120 --> 00:31:38,120
+Nu simt nimic.
+
+438
+00:31:38,121 --> 00:31:39,840
+Nu-mi amintesc nimic.
+
+439
+00:31:39,841 --> 00:31:42,440
+Uneori văd lucruri ciudate.
+
+440
+00:31:43,389 --> 00:31:45,880
+Când se agravează,
+îmi pierd cunoștința
+
+441
+00:31:45,881 --> 00:31:49,040
+și după aceea nu-mi
+mai amintesc nimic.
+
+442
+00:31:49,041 --> 00:31:53,960
+Nu cred că noi... Copiii erau
+foarte entuziasmați de asta.
+
+443
+00:31:53,961 --> 00:31:56,080
+Erau. Chiar erau. Uită-te.
+
+444
+00:31:56,080 --> 00:31:57,600
+Sunt foarte entuziasmat.
+
+445
+00:31:57,601 --> 00:31:59,520
+Era un vorbitor
+extrem de elocvent.
+
+446
+00:31:59,594 --> 00:32:02,520
+Era un scriitor foarte bun.
+
+447
+00:32:02,520 --> 00:32:07,440
+Din toate astea nu se mai vede nimic
+și nu se întoarce aproape deloc.
+
+448
+00:32:09,840 --> 00:32:12,240
+Denette Cunningham suferă de crize
+
+449
+00:32:12,241 --> 00:32:15,360
+care o lasă amețită
+și cu teama că-și pierde mințile.
+
+450
+00:32:16,979 --> 00:32:20,440
+A început în 2013.
+
+451
+00:32:20,539 --> 00:32:23,480
+Era o zi ca oricare alta, conduceam,
+
+452
+00:32:23,604 --> 00:32:31,680
+am leșinat la volan și am distrus
+mașina. Cam patru luni mai târziu,
+
+453
+00:32:31,681 --> 00:32:35,600
+când am luat alta și am condus iar,
+s-a întâmplat din nou.
+
+454
+00:32:35,601 --> 00:32:42,120
+Atunci, la spital,
+au priceput că fusese o criză.
+
+455
+00:32:42,121 --> 00:32:45,280
+Din câte mi se spune, tremur foarte tare.
+
+456
+00:32:45,329 --> 00:32:51,640
+Uneori e foarte rău și aud în cap
+voci care nu sunt ale mele.
+
+457
+00:32:51,641 --> 00:32:53,840
+Știți gândul acela, când vorbești
+cu tine însuți:
+
+458
+00:32:53,864 --> 00:32:59,240
+de obicei e vocea ta. Uneori,
+în mintea mea, nu mai e vocea mea.
+
+459
+00:33:01,160 --> 00:33:04,000
+Am zile în care pur și simplu
+nu mai fac față deloc
+
+460
+00:33:04,000 --> 00:33:08,080
+și mă duc în cameră, închid ușa
+și rămân acolo.
+
+461
+00:33:08,169 --> 00:33:11,920
+Ore în șir, sau zile, uneori,
+când pur și simplu nu mai pot.
+
+462
+00:33:11,920 --> 00:33:14,320
+Căci e așa de greu să nu fiu eu.
+
+463
+00:33:16,284 --> 00:33:19,040
+Uneori epilepsia se tratează
+cu medicamente
+
+464
+00:33:19,040 --> 00:33:22,640
+sau tăind părțile din creier
+care nu funcționează bine,
+
+465
+00:33:22,641 --> 00:33:25,360
+dar depinde de locul
+de unde pornesc crizele.
+
+466
+00:33:26,960 --> 00:33:32,160
+La Denette și la Yakov, crizele
+pornesc din hipocamp.
+
+467
+00:33:32,160 --> 00:33:35,880
+Să umbli acolo le-ar putea distruge
+personalitățile, deja fragile.
+
+468
+00:33:37,309 --> 00:33:41,193
+Până de curând, tratamentul nu-i ajuta,
+dar acum dr.
+
+469
+00:33:41,194 --> 00:33:44,560
+Mohamad Koubeissi crede
+că a găsit o cale să-i ajute.
+
+470
+00:33:46,160 --> 00:33:51,880
+Mohamad vrea să implanteze dispozitive
+care trimit impulsuri în hipocamp.
+
+471
+00:33:51,881 --> 00:33:54,000
+Crede că așa le va opri crizele.
+
+472
+00:33:54,860 --> 00:33:57,000
+E un tratament de pionierat,
+
+473
+00:33:57,001 --> 00:34:01,200
+un experiment îndrăzneț, care poate
+aduce speranță milioanelor, dacă iese.
+
+474
+00:34:02,720 --> 00:34:03,720
+Dar va ieși?
+
+475
+00:34:09,910 --> 00:34:10,940
+(muzică gravă)
+
+476
+00:34:18,389 --> 00:34:21,880
+Denette Cunningham și prietena ei, Sharon,
+merg spre spital.
+
+477
+00:34:22,804 --> 00:34:27,199
+În câteva ore, chirurgii încep
+să-i treacă electrozi subțiri prin craniu,
+
+478
+00:34:28,844 --> 00:34:31,219
+o procedură care i-ar rescrie creierul,
+
+479
+00:34:32,004 --> 00:34:34,920
+și, până la urmă, i-ar putea opri
+crizele de nestăpânit.
+
+480
+00:34:36,459 --> 00:34:37,760
+Trebuie să se întâmple.
+
+481
+00:34:37,761 --> 00:34:40,159
+Ca să fiu din nou eu.
+
+482
+00:34:41,360 --> 00:34:48,679
+Aș vrea să nu trec prin asta,
+dar trebuie să fiu iar întreagă.
+
+483
+00:34:51,859 --> 00:34:55,440
+- Nu departe, în spate, vin Yakov Krug
+și soția lui, Esther.
+
+484
+00:34:57,335 --> 00:34:58,920
+- Alo, Hanula?
+
+485
+00:34:58,921 --> 00:35:00,280
+Suntem la spital.
+
+486
+00:35:00,281 --> 00:35:01,800
+Ce mai faci?
+
+487
+00:35:01,801 --> 00:35:04,120
+Da, băieții cum sunt?
+
+488
+00:35:04,121 --> 00:35:05,480
+- Toată lumea e stresată.
+
+489
+00:35:05,481 --> 00:35:07,560
+Nu cunosc nicio procedură
+
+490
+00:35:08,010 --> 00:35:10,160
+care să fie măcar minim invazivă,
+
+491
+00:35:10,161 --> 00:35:13,960
+prin care trece cineva din familie,
+iar restul stă calm și relaxat.
+
+492
+00:35:13,961 --> 00:35:16,880
+Nimeni nu stă, de fapt, fără griji.
+
+493
+00:35:16,881 --> 00:35:18,560
+Asta e operație pe creier.
+
+494
+00:35:21,440 --> 00:35:23,724
+- Știți, se apropie tot mai mult
+de clipa operației,
+
+495
+00:35:23,725 --> 00:35:27,680
+așa că încep să fiu
+puțin neliniștită.
+
+496
+00:35:27,681 --> 00:35:32,400
+Știți, nimănui nu-i arde de operație,
+dar eu vreau să fiu iar eu.
+
+497
+00:35:34,004 --> 00:35:36,320
+- Le fixează electrozii pe poziție.
+
+498
+00:35:36,321 --> 00:35:38,851
+Există riscul de... - Acum
+Yakov și Denette pornesc
+
+499
+00:35:38,852 --> 00:35:42,360
+spre frontiera îndepărtată
+a neuroștiinței.
+
+500
+00:35:43,880 --> 00:35:44,880
+- Încă un formular, pentru mine.
+
+501
+00:35:44,881 --> 00:35:46,520
+E formularul de cartografiere a corpului.
+
+502
+00:35:46,521 --> 00:35:51,000
+Așa se face... - Chirurgii implantează
+grupuri de electrozi în creierele lor.
+
+503
+00:35:51,001 --> 00:35:53,760
+Cei mai mulți electrozi urmăresc undele.
+
+504
+00:35:53,761 --> 00:35:56,160
+Rămân acolo doar câteva zile.
+
+505
+00:35:56,161 --> 00:36:00,760
+Dar un electrod, stimulatorul
+cerebral profund, e definitiv.
+
+506
+00:36:00,761 --> 00:36:06,240
+El trimite impulsuri electrice într-un
+tract de fibre legat de hipocamp.
+
+507
+00:36:06,241 --> 00:36:09,040
+Iar dacă merge,
+le va opri crizele.
+
+508
+00:36:12,600 --> 00:36:16,920
+Yakov și Denette sunt sedați,
+cu capul prins în cadre metalice.
+
+509
+00:36:18,320 --> 00:36:22,160
+O mișcare bruscă a capului poate duce
+la o leziune cerebrală ireversibilă.
+
+510
+00:36:26,200 --> 00:36:29,120
+Să duci firele prin canalele delicate
+ale creierului
+
+511
+00:36:29,121 --> 00:36:32,720
+cere multă măiestrie, fiindcă
+nu există două creiere identice.
+
+512
+00:36:33,720 --> 00:36:36,480
+- Anatomia creierului nu e universală.
+
+513
+00:36:36,481 --> 00:36:39,280
+Sunt câteva reguli generale,
+valabile pentru cei mai mulți,
+
+514
+00:36:39,530 --> 00:36:42,720
+dar fiecare își are anatomia lui.
+
+515
+00:36:42,721 --> 00:36:48,280
+- Din fericire, tehnologia nouă
+permite operația cu risc minim.
+
+516
+00:36:48,281 --> 00:36:51,760
+- Cred că arată foarte bine
+la toate semnalele.
+
+517
+00:36:51,761 --> 00:36:54,179
+- Echipa folosește o hartă
+tridimensională,
+
+518
+00:36:54,180 --> 00:36:58,040
+obținută prin suprapunerea
+unui RMN cu un CT.
+
+519
+00:36:58,814 --> 00:37:00,920
+- În creier nu putem vedea.
+
+520
+00:37:00,921 --> 00:37:03,440
+De aceea facem o repetiție virtuală,
+
+521
+00:37:03,441 --> 00:37:06,200
+ca să prezicem de unde
+pornim în craniu
+
+522
+00:37:06,201 --> 00:37:08,680
+și unde ajungem,
+la vârful electrozilor.
+
+523
+00:37:08,681 --> 00:37:11,800
+Calculatorul ne face
+un model 3D al creierului,
+
+524
+00:37:11,801 --> 00:37:15,600
+apoi exersăm drumul electrodului,
+exact cum l-am introduce.
+
+525
+00:37:15,601 --> 00:37:18,000
+Sistemul ne lasă să-l așezăm
+
+526
+00:37:18,001 --> 00:37:20,961
+pe o traiectorie care ocolește
+structurile primejdioase,
+
+527
+00:37:20,962 --> 00:37:24,320
+cum sunt vasele și alte
+structuri care pot sângera.
+
+528
+00:37:24,321 --> 00:37:27,240
+- Nu e nevoie să deschidă craniul.
+
+529
+00:37:27,241 --> 00:37:30,133
+- Sondele sunt împinse în creier,
+ghidate de
+
+530
+00:37:30,134 --> 00:37:33,340
+un fel de GPS, legat
+de imaginea tridimensională.
+
+531
+00:37:34,189 --> 00:37:37,800
+Intrările sunt pregătite,
+traiectoriile, trasate.
+
+532
+00:37:39,015 --> 00:37:40,760
+Totul e gata.
+
+533
+00:37:42,095 --> 00:37:44,660
+Dar oare pregătirea aceasta ajunge?
+
+534
+00:37:52,720 --> 00:37:53,560
+- E în regulă.
+
+535
+00:37:53,561 --> 00:37:56,560
+(bâzâit de aparat)
+
+536
+00:37:58,120 --> 00:38:00,120
+(bâzâit de aparat)
+
+537
+00:38:00,121 --> 00:38:02,720
+Acum se fac găuri mici în craniu.
+
+538
+00:38:07,080 --> 00:38:13,080
+După fiecare gaură, chirurgul introduce
+electrozi de monitorizare în creier.
+
+539
+00:38:13,081 --> 00:38:14,680
+- Trage-l un pic înapoi.
+
+540
+00:38:14,681 --> 00:38:16,000
+- Așa e bine.
+
+541
+00:38:16,001 --> 00:38:20,600
+Firul electric din acul acesta
+e mai subțire decât un fir de păr.
+
+542
+00:38:20,601 --> 00:38:24,640
+Dacă prinzi ceva între unu și doi,
+înseamnă că am intrat prea adânc.
+
+543
+00:38:24,641 --> 00:38:29,560
+- Cred că văd răspunsuri evocate
+între zero și doi, acum.
+
+544
+00:38:29,561 --> 00:38:31,520
+Electrozii aceștia îi permit lui Mohamad
+
+545
+00:38:31,521 --> 00:38:35,360
+să asculte undele lui Denette
+în zilele următoare.
+
+546
+00:38:35,361 --> 00:38:39,600
+- Vrem să punem electrozi
+de o parte și de alta a creierului,
+
+547
+00:38:39,601 --> 00:38:43,600
+ca să confirmăm că zonele unde
+începe criza sunt hipocampii,
+
+548
+00:38:43,601 --> 00:38:46,160
+structurile importante
+pentru memorie.
+
+549
+00:38:46,161 --> 00:38:48,760
+(muzică lină)
+
+550
+00:38:51,320 --> 00:38:55,000
+- Acum echipa se pregătește
+pentru momentul cel mare:
+
+551
+00:38:55,001 --> 00:38:59,160
+implantul stimulatorului cerebral
+profund, în hipocamp.
+
+552
+00:38:59,161 --> 00:39:01,280
+- Bine, hai înapoi sus, la trei și patru.
+
+553
+00:39:01,281 --> 00:39:04,880
+Aici e dreapta: hipocampul drept,
+amigdala dreaptă.
+
+554
+00:39:04,881 --> 00:39:09,680
+Firul acesta e mai gros, cât un ac
+de tricotat, și greu de pus la loc.
+
+555
+00:39:10,434 --> 00:39:16,200
+- Ultimul electrod de stimulare profundă
+e cel mai greu, fiindcă ținta
+
+556
+00:39:16,201 --> 00:39:22,320
+nu e definită anatomic la fel de clar
+ca celelalte structuri.
+
+557
+00:39:22,321 --> 00:39:25,800
+- Mohamad trimite o salvă
+de curent în electrod.
+
+558
+00:39:25,801 --> 00:39:30,280
+- Ia să încerc la fel:
+zero pozitiv, unu negativ.
+
+559
+00:39:30,281 --> 00:39:35,160
+- Dacă electrodul e mutat
+cât de puțin, planul cade.
+
+560
+00:39:39,240 --> 00:39:42,160
+Mută electrodul cu o fracțiune
+de milimetru.
+
+561
+00:39:45,280 --> 00:39:47,600
+Succes: au nimerit ținta.
+
+562
+00:39:48,640 --> 00:39:50,560
+O operație de pionierat: se implantează
+
+563
+00:39:50,561 --> 00:39:54,080
+un stimulator electric, la vreo
+13 centimetri adâncime în creier.
+
+564
+00:39:55,220 --> 00:39:58,600
+- Da, suntem foarte bucuroși.
+Exact asta speram.
+
+565
+00:39:58,601 --> 00:40:00,560
+Asta, despre poziționare.
+
+566
+00:40:00,561 --> 00:40:03,480
+Suntem exact unde voiam.
+
+567
+00:40:03,481 --> 00:40:05,680
+Partea grea a operației s-a terminat.
+
+568
+00:40:06,840 --> 00:40:08,160
+- Dar mai e ceva.
+
+569
+00:40:08,161 --> 00:40:13,200
+Pe opt monitoare, la electrozii
+din creierul lui Denette: o schimbare.
+
+570
+00:40:13,201 --> 00:40:16,314
+Semn că, încă de pe acum,
+în stadiul acesta de început,
+
+571
+00:40:16,315 --> 00:40:19,000
+stimulatorul i-ar putea
+opri crizele.
+
+572
+00:40:20,320 --> 00:40:23,800
+Apoi și operația lui Yakov merge bine.
+
+573
+00:40:23,801 --> 00:40:25,520
+- Deci e foarte bine.
+
+574
+00:40:27,560 --> 00:40:31,480
+- Firele de urmărire și de stimulare
+ajung în creier fără incidente.
+
+575
+00:40:33,520 --> 00:40:40,000
+- La Yakov sperăm că stimularea
+profundă îi poate aduce memoria înapoi,
+
+576
+00:40:40,001 --> 00:40:43,120
+fie printr-un efect bun, direct,
+asupra memoriei,
+
+577
+00:40:44,040 --> 00:40:47,640
+fie prin crize mai rare, fie prin ambele.
+
+578
+00:40:47,641 --> 00:40:51,849
+Sunt optimist că tratamentul
+poate îmbunătăți
+
+579
+00:40:51,850 --> 00:40:55,160
+prelucrarea memoriei, chiar
+și fără reducerea crizelor.
+
+580
+00:40:55,161 --> 00:40:57,600
+Rămâne de văzut. Trebuie să așteptăm.
+
+581
+00:40:59,575 --> 00:41:04,200
+- Două zile mai târziu, Mohamad îl ține
+pe Yakov sub ochi, fără întrerupere.
+
+582
+00:41:04,201 --> 00:41:05,680
+Așteaptă crizele.
+
+583
+00:41:06,834 --> 00:41:10,240
+- Bine, îmi trebuie doar o criză.
+
+584
+00:41:10,241 --> 00:41:12,711
+- Mohamad speră, de fapt, să vadă una,
+ca să confirme
+
+585
+00:41:12,712 --> 00:41:15,800
+că a pus stimulatorii profunzi
+exact unde trebuie.
+
+586
+00:41:17,375 --> 00:41:19,760
+Astea sunt traseele undelor cerebrale
+
+587
+00:41:19,910 --> 00:41:21,120
+înregistrate de electrozi
+
+588
+00:41:21,245 --> 00:41:22,960
+implantați în creier.
+
+589
+00:41:22,961 --> 00:41:27,920
+Undele, după cum vedeți,
+sunt ca niște valuri line, nu?
+
+590
+00:41:27,921 --> 00:41:30,360
+Dar dintr-odată apare ceva
+cu vârfuri ascuțite
+
+591
+00:41:30,361 --> 00:41:34,080
+și asta arată, adesea,
+că țesutul e iritabil,
+
+592
+00:41:34,081 --> 00:41:38,040
+ceea ce predispune la apariția
+crizelor epileptice.
+
+593
+00:41:38,041 --> 00:41:40,040
+Am văzut multe de felul acesta.
+
+594
+00:41:40,041 --> 00:41:42,920
+Ca la cutremur: trebuie
+să aștepți să vină.
+
+595
+00:41:42,921 --> 00:41:46,040
+Nu poți hotărî când se întâmplă.
+
+596
+00:41:46,041 --> 00:41:49,000
+De aceea monitorizăm
+continuu, zile întregi.
+
+597
+00:41:49,805 --> 00:41:53,000
+- Creierele lui Denette și Yakov
+au nevoie de timp ca să se vindece.
+
+598
+00:41:54,044 --> 00:41:58,120
+Abia apoi Mohamad le poate porni
+stimulatorii și vedea ce iese.
+
+599
+00:42:03,419 --> 00:42:05,880
+După o lună, Denette e din nou acasă.
+
+600
+00:42:06,685 --> 00:42:10,560
+Mohamad i-a pornit de la distanță
+stimulatorul profund, acum patru zile.
+
+601
+00:42:11,849 --> 00:42:14,320
+- De când sunt acasă,
+n-am mai avut nicio criză,
+
+602
+00:42:14,321 --> 00:42:18,280
+și e destul de bine, fiindcă
+le aveam întruna.
+
+603
+00:42:18,281 --> 00:42:22,640
+Credea că prietenele au plecat toate,
+dar uite, sunt în patul ei.
+
+604
+00:42:22,641 --> 00:42:25,880
+(râde) Îți place?
+
+605
+00:42:25,881 --> 00:42:30,480
+- Începe iar să se bucure de viață,
+cu fiica și cu nepoții.
+
+606
+00:42:30,481 --> 00:42:34,000
+- Dacă mi-aș putea lua înapoi
+toată viața, așa cum era
+
+607
+00:42:34,001 --> 00:42:36,720
+înainte de crize,
+ar fi minunat.
+
+608
+00:42:36,721 --> 00:42:38,920
+Nu știu dacă se va întâmpla vreodată.
+
+609
+00:42:38,921 --> 00:42:42,320
+Poate trebuie să accept o viață nouă,
+
+610
+00:42:42,321 --> 00:42:46,160
+dar, dacă pot doar să fiu iar eu,
+ar fi minunat.
+
+611
+00:42:47,790 --> 00:42:53,320
+- Datele de până acum arată
+o reducere a crizelor cu 92%.
+
+612
+00:42:53,321 --> 00:42:57,840
+De obicei speri la o reducere
+de 40% sau de 50%.
+
+613
+00:42:57,841 --> 00:43:02,240
+O scădere atât de mare,
+fără să atingă
+
+614
+00:43:02,241 --> 00:43:08,680
+cogniția, fără efecte secundare
+clare, e o descoperire majoră.
+
+615
+00:43:12,400 --> 00:43:15,960
+(muzică lină)
+
+616
+00:43:15,961 --> 00:43:20,040
+- Cercetarea lui Mohamad a deschis
+o fereastră spre mecanismele minții,
+
+617
+00:43:21,320 --> 00:43:24,080
+dar o mare parte din el rămâne
+teritoriu necartografiat.
+
+618
+00:43:25,880 --> 00:43:30,880
+- Va putea creierul, vreodată,
+să se desfacă singur
+
+619
+00:43:31,120 --> 00:43:37,360
+și să se adune la loc, cum face
+un expert cu un ceas elvețian?
+
+620
+00:43:37,361 --> 00:43:39,600
+Deocamdată vă spun că, dacă creierul
+
+621
+00:43:39,601 --> 00:43:44,600
+e un ceas elvețian complicat,
+cei mai buni neurocercetători
+
+622
+00:43:45,044 --> 00:43:47,360
+sunt ca elevii de clasa întâi.
+
+623
+00:43:51,640 --> 00:43:54,920
+- La nivelul cel mai simplu,
+creierul e un sistem electric.
+
+624
+00:43:57,644 --> 00:44:00,920
+Focurile minții produc tot
+ceea ce ne face oameni.
+
+625
+00:44:02,720 --> 00:44:03,720
+Știință.
+
+626
+00:44:04,539 --> 00:44:05,539
+Artă.
+
+627
+00:44:06,440 --> 00:44:07,440
+Emoție.
+
+628
+00:44:09,124 --> 00:44:13,800
+Iar trăsătura cea mai aparte
+a creierului uman e că se poate privi
+
+629
+00:44:16,160 --> 00:44:17,320
+pe sine, în tot misterul lui.
+
